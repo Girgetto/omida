@@ -1,5 +1,3 @@
-import Login from './Login/Login.container';
+import Login from './Home/Home.container';
 
-export {
-  Login
-}
+export { Login };

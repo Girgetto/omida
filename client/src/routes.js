@@ -1,14 +1,11 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import {
-  Login,
-} from './components/pages';
-
+import { Home } from './components/pages';
 
 const Routes = (
   <div>
     <Switch>
-      <Route path="/" exact component={() => <Login />} />
+      <Route path="/" exact component={() => <Home />} />
     </Switch>
   </div>
 );
