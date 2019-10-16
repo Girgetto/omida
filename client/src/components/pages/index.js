@@ -1,3 +1,3 @@
-import Login from './Home/Home.container';
+import Home from './Home/Home.container';
 
-export { Login };
+export { Home };
