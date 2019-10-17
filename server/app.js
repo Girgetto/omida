@@ -13,3 +13,30 @@ const MongoStore = require('connect-mongo')(session);
 const passport = require('passport');
 const flash = require('connect-flash');
 const debug = require('debug')('app');
+
+const appName = require('./package.json').name;
+
+require('./configs/db.config');
+
+const app = express();
+
+app.use(logger('dev'));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(cookieParser());
+app.use(cors(corsOptions));
+
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.use(require('./routes'));
+
+app.use('*', (_, res) => {
+	res.sendFile(path.join(__dirname, 'public/index.html'));
+});
+
+
+const server = app.listen(process.env.PORT || 4000, () => {
+	debug(`Running %o on port ${server.address().port}`, appName);
+});
+
+module.exports = app;
