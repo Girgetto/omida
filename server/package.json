@@ -13,7 +13,8 @@
   },
   "homepage": "https://github.com/Girgetto/hotel-finder#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js"
   },
   "dependencies": {
     "bcrypt": "^3.0.6",
@@ -33,5 +34,8 @@
     "nodemon": "^1.19.1"
   },
   "keywords": [],
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "express-session": "^1.17.0"
+  }
 }

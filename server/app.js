@@ -10,7 +10,6 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const session = require('express-session');
 const MongoStore = require('connect-mongo')(session);
-const passport = require('passport');
 const flash = require('connect-flash');
 const debug = require('debug')('app');
 
@@ -20,11 +19,20 @@ require('./configs/db.config');
 
 const app = express();
 
+const corsOptions = {
+	origin(origin, callback) {
+		const originIsWhitelisted = whitelist.indexOf(origin) !== -1;
+		callback(null, originIsWhitelisted);
+	},
+	credentials: true,
+};
+
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(cors(corsOptions));
+
 
 app.use(express.static(path.join(__dirname, 'public')));
 
