@@ -22,7 +22,6 @@
     "eslint-plugin-react": "^7.14.3",
     "expect.js": "^0.3.1",
     "history": "^4.7.2",
-    "husky": "^3.0.4",
     "react-redux": "^5.0.7",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
