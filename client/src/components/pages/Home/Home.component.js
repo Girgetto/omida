@@ -5,7 +5,7 @@ const Home = ({ className }) => {
     <div className={className}>
       <h1 className="mainTitle">HOTEL FINDER</h1>
       <div className="inputs">
-        <input/>
+        <input placeholder="Inserisci una direzione"/>
         <button>Find</button>
       </div>
     </div>

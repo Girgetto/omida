@@ -22,11 +22,16 @@ export default styled(Home).attrs({})`
     align-items: center;
 
     input {
-      padding: 1% 10%;
+      width: 60%;
+      height: 50%;
+      font-size: 1rem;
     }
 
     button {
       padding: 1% 5%;
+      background-color: #FAFF2A;
+      border: 0;
+      margin: 2%;
     }
   }
 `;
