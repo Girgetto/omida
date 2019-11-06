@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import Home from './Home.component';
 
 export default styled(Home).attrs({})`
+.firstSection {
   height: 724px;
   display: flex;
   justify-content: center;
@@ -20,18 +21,34 @@ export default styled(Home).attrs({})`
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    width: 80%;
+    border-radius: 5px;
 
     input {
       width: 60%;
       height: 50%;
       font-size: 1rem;
+      background-color: #ececec;
+      color: #646464;
+      border-radius: 5px;
+      border: 0;
+      padding: 0 2%;
     }
 
     button {
       padding: 1% 5%;
-      background-color: #FAFF2A;
+      background-color: #2a41e8;
+      color: #fff;
       border: 0;
       margin: 2%;
+      padding: 2% 5%;
+      border-radius: 5px;
     }
   }
+}
+
+.secondSection {
+  
+}
 `;
