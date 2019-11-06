@@ -49,6 +49,61 @@ export default styled(Home).attrs({})`
 }
 
 .secondSection {
-  
+  text-align: center;
+  margin: 5% 0%;
+
+.cardsContainer{
+  display: flex;
+  flex-wrap: wrap;
+
+  .card {
+    width: 30%;
+    margin: 1%;
+    position: relative;
+
+    .card-image {
+      width: 100%;
+    }
+  }
+}  
+.all-properties-button {
+  background-color: #000;
+  color: #fff;
+  border: 0;
+  padding: 1% 5%;
+  border-radius: 15px;
+}
+}
+.thirdSection {
+  text-align: center;
+  margin: 5% 0%;
+  .content {
+    padding: 10%;
+    display: flex;
+    .left-content {
+      width: 50%;
+      .deal-image {
+        width: 100%;
+      }
+    }
+    .right-content {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #292929;
+      p {
+        color: white;
+      }
+      button {
+        color: white;
+        background-color: #ff5e15;
+        border: 0;
+        border-radius: 4px;
+        padding: 0.6rem 1.8rem;
+      }
+    }
+  }
 }
 `;
