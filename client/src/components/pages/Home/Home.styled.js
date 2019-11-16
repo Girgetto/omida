@@ -106,4 +106,21 @@ export default styled(Home).attrs({})`
     }
   }
 }
+
+.fourthSection {
+  .fourth-main {
+  background-image: url('https://i.ibb.co/QjLjVVx/hero-bg-image.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 110%;
+  padding: 5% 2%;
+
+  .main-inner {
+    background-color: #2842cd;  
+    padding: 10%;
+    width: 10%;
+    margin: 2%;
+  }
+  }
+}
 `;

@@ -34,7 +34,15 @@ const Home = ({ className }) => {
             <button>From 1000€ per month</button>
           </div>
         </div>
-      </section>     
+      </section>   
+      <section className="fourthSection">
+        <h1>Our Agents</h1>
+        <div className="fourth-main">
+          <div className="main-inner">
+            <h1>Want to Sell Property?</h1>
+          </div>
+        </div>
+      </section>  
     </div>
   );
 };
