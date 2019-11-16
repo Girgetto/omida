@@ -36,10 +36,12 @@ const Home = ({ className }) => {
         </div>
       </section>   
       <section className="fourthSection">
-        <h1>Our Agents</h1>
+        <h1 className="main-title">Our Agents</h1>
         <div className="fourth-main">
           <div className="main-inner">
             <h1>Want to Sell Property?</h1>
+            <p>Let us create a tailored strategic marketing plan and keep track of the selling process.</p>
+            <button>More Details</button>
           </div>
         </div>
       </section>  
