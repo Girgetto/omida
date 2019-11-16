@@ -108,6 +108,7 @@ export default styled(Home).attrs({})`
 }
 
 .fourthSection {
+  text-align: center;
   .fourth-main {
   background-image: url('https://i.ibb.co/QjLjVVx/hero-bg-image.png');
   background-repeat: no-repeat;
@@ -116,6 +117,7 @@ export default styled(Home).attrs({})`
   padding: 5% 2%;
 
   .main-inner {
+    color: #fff;
     background-color: #2842cd;  
     padding: 10%;
     width: 10%;
