@@ -7,7 +7,7 @@ export default styled(Navbar).attrs({})`
   align-items: center;
   right: 0;
   left: 0;
-  background-color: #fff;
+  background-color: #000;
   
   .list {
     width: 200px;
@@ -15,7 +15,7 @@ export default styled(Navbar).attrs({})`
     justify-content: space-around;
     
     a {
-      color: #4b4d4f;
+      color: #fff;
       text-decoration: none;
     }
   }
