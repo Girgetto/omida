@@ -1,15 +1,20 @@
 import React from 'react';
 
+const flexCenter = {
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+}
+
 const ThirdSection = () => {
   return (
     <section
       style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center'
+        ...flexCenter,
+        height: '200px'
       }}
     >
-      <div>
+      <div style={{ textAlign: 'center'}}>
         <h1>About</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae odio
@@ -18,7 +23,7 @@ const ThirdSection = () => {
           aliquid!
         </p>
       </div>
-      <div>
+      <div style={{ textAlign: 'center'}}>
         <h1>Service</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae odio
@@ -27,7 +32,7 @@ const ThirdSection = () => {
           aliquid!
         </p>
       </div>
-      <div>
+      <div style={{ textAlign: 'center'}}>
         <h1>Ipsum</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae odio
