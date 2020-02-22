@@ -7,6 +7,7 @@ import { store, persistor, history } from './state';
 import * as serviceWorker from './serviceWorker';
 import Routes from './routes';
 import './style.scss';
+import './i18n';
 
 ReactDOM.render(
   <Provider store={store}>

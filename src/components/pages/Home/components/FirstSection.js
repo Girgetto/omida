@@ -1,9 +1,12 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
-const FirstSection = () => (
+const FirstSection = () => {
+  const [t] = useTranslation();
+  return (
   <section className="firstSection">
-    <h1 className="mainTitle">HOTEL FINDER</h1>
+    <h1 className="mainTitle">{t('title')}</h1>
   </section>
-);
+)};
 
 export default FirstSection;
