@@ -1,0 +1,6 @@
+@import "../../../../scss/main.scss";
+
+.secondSection {
+  @extend %flex-center;
+  height: 200px;
+}
