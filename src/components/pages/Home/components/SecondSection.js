@@ -1,13 +1,12 @@
 import React from 'react';
 import style from './style.module.scss';
+import { useTranslation } from 'react-i18next';
 
 const SecondSection = () => {
+  const [t] = useTranslation();
   return (
     <section className={style.secondSection}>
-      <p>
-        We are an elite security firm specializing in identifying risk and
-        developing customized solutions for high profile clients.
-      </p>
+      <p>{t('description.part1')}</p>
     </section>
   );
 };

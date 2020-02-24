@@ -4,19 +4,26 @@ import { Home } from './components/pages';
 import { MainLayout } from './components/layout';
 
 const Routes = (
-  <div>
-    <Switch>
-      <Route
-        path="/"
-        exact
-        component={() => (
-          <MainLayout>
-            <Home />
-          </MainLayout>
-        )}
-      />
-    </Switch>
-  </div>
+  <Switch>
+    <Route
+      path="/"
+      exact
+      component={() => (
+        <MainLayout>
+          <Home />
+        </MainLayout>
+      )}
+    />
+    <Route
+      path="/about-us"
+      exact
+      component={() => (
+        <MainLayout>
+          <Home />
+        </MainLayout>
+      )}
+    />
+  </Switch>
 );
 
 export default Routes;
