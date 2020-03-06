@@ -8,6 +8,8 @@ const Home = ({ className }) => {
         <Comp.FirstSection />
         <Comp.SecondSection />
         <Comp.ThirdSection />
+        <Comp.OurMission />
+        <Comp.FirstSquares />
       </div>
     </Suspense>
   );

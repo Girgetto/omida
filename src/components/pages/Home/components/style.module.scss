@@ -4,3 +4,11 @@
   @extend %flex-center;
   height: 200px;
 }
+
+.squares {
+  display: flex;
+
+  .square {
+    width: 33%;
+  }
+}
