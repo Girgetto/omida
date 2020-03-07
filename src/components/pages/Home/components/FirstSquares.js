@@ -10,7 +10,7 @@ const FirstSquares = () => {
         {t('home.TheExperience')}
         {t('home.TheKnowledge')}
       </div>
-      <div className={styles.square}>image</div>
+      <div className={styles.square}>image here</div>
       <div className={styles.square}>
         {t('home.WhenBeing')}
         {t('home.InThree')}

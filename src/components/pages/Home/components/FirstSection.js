@@ -6,6 +6,7 @@ const FirstSection = () => {
   return (
   <section className="firstSection">
     <h1 className="mainTitle">{t('title')}</h1>
+    <p>{t('home.RealEstate')}</p>
   </section>
 )};
 

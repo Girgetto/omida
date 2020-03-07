@@ -6,7 +6,12 @@ const SecondSection = () => {
   const [t] = useTranslation();
   return (
     <section className={style.secondSection}>
-      <p>{t('home.RealEstate')}</p>
+      <div>
+        {t('home.Analysis')}
+        {t('home.Consultancy')}
+        {t('home.Coordination')}
+      </div>
+      <p>{t('home.ConsultancyMediation')}</p>
     </section>
   );
 };
