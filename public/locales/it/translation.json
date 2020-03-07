@@ -1,11 +1,13 @@
   
 {
   "title": "006 PLUS 1",
-  "description": {
-    "part1": " Real Estate and Business Advisory",
-    "part2": "/ Consulenza, mediazione e riservatezza/ Sempre un passo avanti verso la soluzione/ Conoscere per investire",
-    "title3": "Analisi | Consulenza | Coordinamento",
-    "part3 ":"Consulenti specializzati nell’individuare investimenti immobiliari dedicati a strutture ricettive e aziende agricole di rilevante importanza in Toscana. Il nostro raggio d’azione si estende anche a dimore di prestigio nelle città più importanti d’Italia come Milano, Venezia, Firenze e Roma.",
+  "home": {
+    "RealEstate": "Real Estate and Business Advisory",
+    "ConsultancyMediation": "/ Consulenza, mediazione e riservatezza/ Sempre un passo avanti verso la soluzione/ Conoscere per investire",
+    "Analysis": "Analisi",
+    "Consultancy": "Consulenza",
+    "Coordination": "Coordinamento",
+    "SpecializedConsultants":"Consulenti specializzati nell’individuare investimenti immobiliari dedicati a strutture ricettive e aziende agricole di rilevante importanza in Toscana. Il nostro raggio d’azione si estende anche a dimore di prestigio nelle città più importanti d’Italia come Milano, Venezia, Firenze e Roma.",
     "title4": "Our Mission",
     "part4": "Offriamo servizi specifici per garantire ai nostri interlocutori un investimento consapevole e un’assistenza nel conseguente sviluppo dell’asset societario. Il nostro obbiettivo è garantire un rapporto di serietà e fiducia attraverso indagini e trattative riservate permettendo all’acquirente la crescita verso nuove opportunità di business. La nostra consulenza è rivolta a imprenditori, catene alberghiere, costruttori, fondi immobiliari e di investimento interessati al settore dell’accoglienza, al settore turistico e agricolo. CTA: Scopri di più ->>",
     "title5": "Quando italianità è sinonimo di qualità",
@@ -26,5 +28,11 @@
     "title1": "Tutti gli uomini hanno tre vite: quella pubblica, quella privata e quella segreta. L’ultima è quella per gestire gli affari importanti.",
     "title2": "35 anni di esperienza",
     "part1": "006+1 nasce da un progetto di Franco Grassini e ha come obbiettivo quello di offrire all’investitore un nuovo sistema di fare consulenza per garantire elevati standard di soddisfazione. Con l’esperienza maturata nel settore immobiliare ha avviato un processo di crescita che ha reso più consapevole la figura del consulente immobiliare per garantire un’assistenza che va oltre l’individuazione di una proprietà interessante. 006+1 infatti ti accompagna anche nel periodo successivo all’investimento assicurandosi che ogni aspetto sia curato in maniera esaustiva. Conoscendo approfonditamente le funzioni e i meccanismi della legislazione italiana e le problematiche ad essa legate, oggi 006+1 gestisce e coordina una rete consolidata di professionisti specializzati, supervisionando l'analisi di documenti, certificazioni e la fase di progettazione dell’intera operazione."
+  },
+  "servizi": {
+    "intro": "intro",
+    "introText": "Intro Con un servizio ritagliato su misura possiamo rispondere ad ogni esigenza per un percorso di investimento sereno e trasparente.",,
+    "LuxoryRealEstate": "Luxury Real estate",
+    "Business Advisory": "Business Advisory"
   }
 }
