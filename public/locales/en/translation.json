@@ -19,11 +19,12 @@
     "WeAnalyze": "We analyze all the structural and corporate features and we highlight the critical aspects in order to guide the investors in redacting a consistent offer based on a dedicated consultancy to both companies and single individuals. In addition our business advisory model allows us to quantity financially the costs associated to the resolution of potential issues with a realistic perspective of the timeline required. We guide the investor and we protect the investment avoiding the physiological circular asymmetry of the negation.",
     "Privacy and discretion": "Privacy and discretion",
     "OurApproach": "Our approach is based on a severe privacy policy. We implement a system and methodology that permit to create a relationship based on accuracy, reliability and trust amongst the people involved. We evaluate case by case the degree of exposure of an investment in order to guarantee the settlement of the negotiation and we apply the same confidentiality in the search of a target asset that complies with the needs required.",
-    "Luxury real estate": "Luxury real estate",
+    "LuxuryRealEstate": "Luxury real estate",
     "WithAGrowing": "With a growing and evolving real estate portfolio, we are always ready to seize and create new market opportunities. Our approach is based on deep analysis of the supply and demand taking into consideration the needs of the investors. We identify the suitable solution amongst luxury properties, historic residences and buildings that guarantee a deep immersion in beauty. We operate in the most famous cities in the world such as Venice, Rome, and Milan and in the areas of Chianti, Florence and Siena. We offer the highest standards in the Italian luxury scenery.",
     "ATradition":"A tradition oriented towards the future",
     "WeDevelop":"We develop projects based on environmental ethics, functionality and innovation. We evaluate the impact of the materials; the energy optimization and we add value to the design in order to grant competitiveness that looks to the future with special attention of trends that are respectful of the territory",
     "Advantages": "Advantages",
+    "ContactUs":"Contact us",
     "ConsciousInvestments": "Conscious investments for real opportunities",
     "WeSeek":"We seek for real opportunities for investors and companies avoiding waste of time and resources. We want to allow our Clients to focus on the growth they are interested in."
   },
@@ -35,6 +36,7 @@
   },
   "services": {
     "Intro": "Intro",
+    "IntroText": "With a tailor made approach we can answer to any query in order to guarantee a clear and transparent investment path.",
     "LuxuryRealEstate": "Luxury Real estate",
     "BusinessAdvisory": "Business Advisory",
     "TechnicalAdvice": "Technical Advice",
