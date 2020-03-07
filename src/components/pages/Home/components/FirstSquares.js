@@ -7,13 +7,13 @@ const FirstSquares = () => {
   return (
     <div className={styles.squares}>
       <div className={styles.square}>
-        {t('description.title5')}
-        {t('description.part5')}
+        {t('home.TheExperience')}
+        {t('home.TheKnowledge')}
       </div>
       <div className={styles.square}>image</div>
       <div className={styles.square}>
-        {t('description.title6')}
-        {t('description.part6')}
+        {t('home.WhenBeing')}
+        {t('home.InThree')}
       </div>
     </div>
   );

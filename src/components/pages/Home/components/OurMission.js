@@ -5,8 +5,8 @@ const OurMission = () => {
   const [t] = useTranslation();
   return (
     <div>
-      <div>{t('description.title4')}</div>
-      <div>{t('description.part4')}</div>
+      <div>{t('home.OurMission')}</div>
+      <div>{t('home.WeOffer')}</div>
     </div>
   );
 };
