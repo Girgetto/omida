@@ -7,9 +7,11 @@ const Home = ({ className }) => {
       <div className={className}>
         <Comp.FirstSection />
         <Comp.SecondSection />
-        <Comp.ThirdSection />
         <Comp.OurMission />
-        <Comp.FirstSquares />
+        <Comp.FirstRow />
+        <Comp.SecondRow />
+        <Comp.ThirdRow />
+        <Comp.LastSection />
       </div>
     </Suspense>
   );

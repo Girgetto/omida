@@ -1,13 +1,17 @@
 import FirstSection from './FirstSection';
 import SecondSection from './SecondSection';
-import ThirdSection from './ThirdSection';
 import OurMission from './OurMission';
-import FirstSquares from './FirstSquares';
+import FirstRow from './FirstRow';
+import SecondRow from './SecondRow';
+import ThirdRow from './ThirdRow';
+import LastSection from './LestSection';
 
 export {
   FirstSection,
   SecondSection,
-  ThirdSection,
   OurMission,
-  FirstSquares
+  FirstRow,
+  SecondRow,
+  ThirdRow,
+  LastSection
 }
