@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-const OurMission = () => {
+const LastSection = () => {
   const [t] = useTranslation();
   return (
     <div>
@@ -11,4 +11,4 @@ const OurMission = () => {
   );
 };
 
-export default OurMission;
+export default LastSection;
