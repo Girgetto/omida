@@ -89,3 +89,14 @@ button {
   outline: none;
   cursor: pointer;
 }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}

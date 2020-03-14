@@ -5,7 +5,9 @@ const OurMission = () => {
   const [t] = useTranslation();
   return (
     <div>
-      <div>{t('home.OurMission')}</div>
+      <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        {t('home.OurMission')}
+      </div>
       <div>{t('home.WeOffer')}</div>
     </div>
   );
