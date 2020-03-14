@@ -2,6 +2,7 @@
   "name": "hackaton",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://Girgetto.github.io/DoubleOSeven",
   "dependencies": {
     "aos": "^2.3.4",
     "axios": "^0.19.0",
@@ -19,6 +20,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
     "expect.js": "^0.3.1",
+    "gh-pages": "^2.2.0",
     "history": "^4.7.2",
     "i18next": "^19.3.1",
     "i18next-browser-languagedetector": "^4.0.2",
@@ -42,7 +44,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "node_modules/.bin/eslint ."
+    "lint": "node_modules/.bin/eslint .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
