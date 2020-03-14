@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import styles from './style.module.scss';
+import view3 from '../../../../assets/img/view3.jpg';
 
 const FirstSquares = () => {
   const [t] = useTranslation();
@@ -10,7 +11,9 @@ const FirstSquares = () => {
         {t('home.TheExperience')}
         {t('home.TheKnowledge')}
       </div>
-      <div className={styles.square}>image here</div>
+      <div className={styles.square}>
+        <img className={styles.image} src={view3} alt="view3" />
+      </div>
       <div className={styles.square}>
         {t('home.WhenBeing')}
         {t('home.InThree')}

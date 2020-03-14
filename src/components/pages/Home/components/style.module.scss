@@ -3,12 +3,34 @@
 .secondSection {
   @extend %flex-center;
   height: 200px;
+  flex-direction: column;
+
+  .titles {
+    @extend %d-flex;
+    .paraph {
+      font-weight: 100;
+    }
+  }
+
+  .consultancy {
+    text-align: center;
+  }
 }
 
 .squares {
   display: flex;
-
+  
   .square {
+    margin: 20px;
     width: 33%;
+    .image {
+      position: relative;
+      width: 100%;
+      object-fit: contain;
+    }
   }
+}
+
+.ourMission {
+  width: 500px;
 }
