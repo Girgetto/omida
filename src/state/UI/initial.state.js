@@ -1,5 +1,5 @@
 export default {
   isLoading: false,
   error: false,
-  language: false
+  language: 'en',
 };

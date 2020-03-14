@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import { ROUTES } from '../../../constants';
 import i18n from 'i18next';
 
-const changeLanguage = lng => {
-  i18n.changeLanguage(lng);
-};
-
-const Navbar = ({ className }) => {
+const Navbar = ({ className, setLanguage }) => {
+  const changeLanguage = lng => {
+    setLanguage(lng);
+    i18n.changeLanguage(lng);
+  };
   return (
     <div className={className}>
       <ul className="list">
@@ -16,10 +16,10 @@ const Navbar = ({ className }) => {
       </ul>
       <div  className="language">
         <span className="language__gb" onClick={() => changeLanguage('en')} role="img" aria-label="en">
-          🇬🇧
+          EN
         </span>
         <span className="language__it" onClick={() => changeLanguage('it')} role="img" aria-label="it">
-          🇮🇹
+          IT
         </span>
       </div>
     </div>

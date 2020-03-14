@@ -23,7 +23,7 @@ export default styled(Navbar).attrs({})`
     a {
       color: #fff;
       text-decoration: none;
-      margin-left:20px;
+      margin-left: 20px;
     }
   }
   .language {
@@ -42,9 +42,18 @@ export default styled(Navbar).attrs({})`
       display: flex;
       justify-content: center;
       align-items: center;
+      opacity: 0.5;
       &:hover {
         cursor: pointer;
+        opacity: 0.8;
       }
+    }
+    &__gb {
+      opacity: ${({ language }) => language === 'en' && '1'};
+    }
+
+    &__it {
+      opacity: ${({ language }) => language === 'it' && '1'};
     }
   }
 `;
