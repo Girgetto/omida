@@ -12,8 +12,12 @@ const FirstSquares = () => {
         <img className={styles.image} src={view1} alt="view1" />
       </div>
       <div className={styles.square}>
-        {t('home.WhenBeing')}
-        {t('home.InThree')}
+        <h1>
+          {t('home.ASpecializedGuide')}
+        </h1>
+        <p>
+          {t('home.WeAnalyze')}
+        </p>
       </div>
       <div className={styles.square}>
         <img className={styles.image} src={view2} alt="view2" />

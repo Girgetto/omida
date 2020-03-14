@@ -19,6 +19,15 @@ const GlobalStyles = createGlobalStyle`
     color:#fff;
     background-color: #000;
   }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  p {
+    font-weight: 100;
+  }
 `;
 AOS.init();
 // AOS.init({

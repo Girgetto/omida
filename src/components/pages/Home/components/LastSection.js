@@ -5,8 +5,8 @@ const LastSection = () => {
   const [t] = useTranslation();
   return (
     <div>
-      <div>{t('home.OurMission')}</div>
-      <div>{t('home.WeOffer')}</div>
+      <div>{t('home.ATradition')}</div>
+      <div>{t('home.WeDevelop')}</div>
     </div>
   );
 };

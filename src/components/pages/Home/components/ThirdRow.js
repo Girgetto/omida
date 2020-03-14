@@ -8,15 +8,23 @@ const FirstSquares = () => {
   return (
     <div className={styles.squares}>
       <div className={styles.square}>
-        {t('home.TheExperience')}
-        {t('home.TheKnowledge')}
+        <h1>
+          {t('home.PrivacyAndDiscretion')}
+        </h1>
+        <p>
+          {t('home.OurApproach')}
+        </p>
       </div>
       <div className={styles.square}>
         <img className={styles.image} src={view3} alt="view3" />
       </div>
       <div className={styles.square}>
-        {t('home.WhenBeing')}
-        {t('home.InThree')}
+        <h1>
+          {t('home.LuxuryRealEstate')}
+        </h1>
+        <p>
+          {t('home.WithAGrowing')}
+        </p>
       </div>
     </div>
   );
