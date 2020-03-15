@@ -6,10 +6,19 @@ const OurMission = () => {
   const [t] = useTranslation();
   return (
     <div className={styled.ourMission}>
-      <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-        {t('home.OurMission')}
+      <div className={styled.column_2}></div>
+      <div className={styled.column_2}>
+        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+          <h1>
+            {t('home.OurMission')}
+          </h1>
+        </div>
+        <div>
+          <p>
+            {t('home.WeOffer')}
+          </p>
+        </div>
       </div>
-      <div>{t('home.WeOffer')}</div>
     </div>
   );
 };

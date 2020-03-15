@@ -2,12 +2,13 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import styles from './style.module.scss';
 import castle from '../../../../assets/img/castle.jpg';
+import cs from 'classnames';
 
 const FirstSquares = () => {
   const [t] = useTranslation();
   return (
     <div className={styles.squares}>
-      <div className={styles.square}>
+      <div className={cs(styles.square,styles.wrapper)}>
         <h1>
           {t('home.TheExperience')}
         </h1>

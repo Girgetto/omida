@@ -1,5 +1,9 @@
 @import "../../../../scss/main.scss";
 
+.column_2 {
+  width: 50%;
+}
+
 .secondSection {
   @extend %flex-center;
   height: 200px;
@@ -19,18 +23,22 @@
 
 .squares {
   display: flex;
+
+  .wrapper {
+    padding: 2%;
+  }
   
   .square {
-    margin: 20px;
     width: 33%;
     .image {
       position: relative;
       width: 100%;
-      object-fit: contain;
+      object-fit: cover;
+      height: 100%;
     }
   }
 }
 
 .ourMission {
-  width: 500px;
+  display: flex;
 }

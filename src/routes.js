@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { Home } from './components/pages';
+import { Home, AboutUs } from './components/pages';
 import { MainLayout } from './components/layout';
 
 const Routes = (
@@ -19,7 +19,7 @@ const Routes = (
       exact
       component={() => (
         <MainLayout>
-          <Home />
+          <AboutUs />
         </MainLayout>
       )}
     />
