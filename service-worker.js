@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/DoubleOSeven/precache-manifest.d7ad794d068d37874ccef54b567d72c3.js"
+  "/DoubleOSeven/precache-manifest.796d4c2b02b47d4f12733569fbe0fb71.js"
 );
 
 self.addEventListener('message', (event) => {

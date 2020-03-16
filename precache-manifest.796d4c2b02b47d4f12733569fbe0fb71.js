@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fed9850b7dd87e53411ab58b2458a16e",
+    "revision": "6de5b55bbf54c26457186292f2a85fa4",
     "url": "/DoubleOSeven/index.html"
   },
   {
-    "revision": "03cf61420cd1782946d2",
+    "revision": "44f0814810ba2a42d4c3",
     "url": "/DoubleOSeven/static/css/2.7abef457.chunk.css"
   },
   {
-    "revision": "32472c24bae387442b8b",
-    "url": "/DoubleOSeven/static/css/main.ce5e658a.chunk.css"
+    "revision": "f68064d042e755473f3b",
+    "url": "/DoubleOSeven/static/css/main.7797cd88.chunk.css"
   },
   {
-    "revision": "03cf61420cd1782946d2",
-    "url": "/DoubleOSeven/static/js/2.1d3ef996.chunk.js"
+    "revision": "44f0814810ba2a42d4c3",
+    "url": "/DoubleOSeven/static/js/2.45d1180a.chunk.js"
   },
   {
-    "revision": "32472c24bae387442b8b",
-    "url": "/DoubleOSeven/static/js/main.ae1edb28.chunk.js"
+    "revision": "f68064d042e755473f3b",
+    "url": "/DoubleOSeven/static/js/main.3f0754fe.chunk.js"
   },
   {
     "revision": "3276fa0747f723a5538c",
