@@ -13,7 +13,6 @@ i18n
       loadPath: '/mido/locales/{{lng}}/{{ns}}.json'
     },
     fallbackLng: 'en',
-    baseUrl: 'mido',
     debug: false,
     lng: 'en',
     interpolation: {
