@@ -9,7 +9,11 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
+    backend: {
+      loadPath: '/mido/locales/{{lng}}/{{ns}}.json'
+    },
     fallbackLng: 'en',
+    baseUrl: 'mido',
     debug: false,
     lng: 'en',
     interpolation: {
