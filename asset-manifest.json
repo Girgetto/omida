@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/DoubleOSeven/static/css/main.7797cd88.chunk.css",
-    "main.js": "/DoubleOSeven/static/js/main.3f0754fe.chunk.js",
-    "main.js.map": "/DoubleOSeven/static/js/main.3f0754fe.chunk.js.map",
-    "runtime-main.js": "/DoubleOSeven/static/js/runtime-main.069ef8bb.js",
-    "runtime-main.js.map": "/DoubleOSeven/static/js/runtime-main.069ef8bb.js.map",
-    "static/css/2.7abef457.chunk.css": "/DoubleOSeven/static/css/2.7abef457.chunk.css",
-    "static/js/2.45d1180a.chunk.js": "/DoubleOSeven/static/js/2.45d1180a.chunk.js",
-    "static/js/2.45d1180a.chunk.js.map": "/DoubleOSeven/static/js/2.45d1180a.chunk.js.map",
-    "index.html": "/DoubleOSeven/index.html",
-    "precache-manifest.796d4c2b02b47d4f12733569fbe0fb71.js": "/DoubleOSeven/precache-manifest.796d4c2b02b47d4f12733569fbe0fb71.js",
-    "service-worker.js": "/DoubleOSeven/service-worker.js",
-    "static/css/2.7abef457.chunk.css.map": "/DoubleOSeven/static/css/2.7abef457.chunk.css.map",
-    "static/css/main.7797cd88.chunk.css.map": "/DoubleOSeven/static/css/main.7797cd88.chunk.css.map",
-    "static/media/castle.jpg": "/DoubleOSeven/static/media/castle.4fb59ba1.jpg",
-    "static/media/view1.jpg": "/DoubleOSeven/static/media/view1.3f8db832.jpg",
-    "static/media/view2.jpg": "/DoubleOSeven/static/media/view2.2665f2b4.jpg",
-    "static/media/view3.jpg": "/DoubleOSeven/static/media/view3.d799d264.jpg"
+    "main.css": "/Mido/static/css/main.7797cd88.chunk.css",
+    "main.js": "/Mido/static/js/main.922689c3.chunk.js",
+    "main.js.map": "/Mido/static/js/main.922689c3.chunk.js.map",
+    "runtime-main.js": "/Mido/static/js/runtime-main.03c776ee.js",
+    "runtime-main.js.map": "/Mido/static/js/runtime-main.03c776ee.js.map",
+    "static/css/2.7abef457.chunk.css": "/Mido/static/css/2.7abef457.chunk.css",
+    "static/js/2.df2ea45c.chunk.js": "/Mido/static/js/2.df2ea45c.chunk.js",
+    "static/js/2.df2ea45c.chunk.js.map": "/Mido/static/js/2.df2ea45c.chunk.js.map",
+    "index.html": "/Mido/index.html",
+    "precache-manifest.f2e0016bc80b3d03d97e8e5b44b8aada.js": "/Mido/precache-manifest.f2e0016bc80b3d03d97e8e5b44b8aada.js",
+    "service-worker.js": "/Mido/service-worker.js",
+    "static/css/2.7abef457.chunk.css.map": "/Mido/static/css/2.7abef457.chunk.css.map",
+    "static/css/main.7797cd88.chunk.css.map": "/Mido/static/css/main.7797cd88.chunk.css.map",
+    "static/media/castle.jpg": "/Mido/static/media/castle.4fb59ba1.jpg",
+    "static/media/view1.jpg": "/Mido/static/media/view1.3f8db832.jpg",
+    "static/media/view2.jpg": "/Mido/static/media/view2.2665f2b4.jpg",
+    "static/media/view3.jpg": "/Mido/static/media/view3.d799d264.jpg"
   }
 }
