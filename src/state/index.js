@@ -11,7 +11,9 @@ import rootSagas from './sagas-registration';
 
 const sagaMiddleware = createSagaMiddleware();
 
-const history = createBrowserHistory();
+const history = createBrowserHistory({
+  baseUrl: '/mido'
+});
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose; // eslint-disable-line no-undef
 const enhancer = composeEnhancers(applyMiddleware(routerMiddleware(history), sagaMiddleware));

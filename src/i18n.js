@@ -10,15 +10,17 @@ i18n
   .use(initReactI18next)
   .init({
     backend: {
-      loadPath: '/mido/locales/{{lng}}/{{ns}}.json'
+      loadPath:
+        process.env.REACT_APP_ENV === 'development'
+          ? '/locales/{{lng}}/{{ns}}.json'
+          : '/mido/locales/{{lng}}/{{ns}}.json'
     },
     fallbackLng: 'en',
     debug: false,
     lng: 'en',
     interpolation: {
-      escapeValue: false, // not needed for react as it escapes by default
+      escapeValue: false // not needed for react as it escapes by default
     }
   });
-
 
 export default i18n;

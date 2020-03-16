@@ -1,4 +1,4 @@
 export const ROUTES = {
-  index: '/',
-  aboutUs: '/about-us'
+  index: '/mido',
+  aboutUs: '/mido/about-us'
 }
