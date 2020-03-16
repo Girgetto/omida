@@ -1,12 +1,21 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import styles from './style.module.scss';
 
 const LastSection = () => {
   const [t] = useTranslation();
   return (
-    <div>
-      <div>{t('home.ATradition')}</div>
-      <div>{t('home.WeDevelop')}</div>
+    <div className={styles.lastSection}>
+      <div>
+        <h1>
+          {t('home.ATradition')}
+        </h1>
+      </div>
+      <div>
+        <p>
+          {t('home.WeDevelop')}
+        </p>
+      </div>
     </div>
   );
 };

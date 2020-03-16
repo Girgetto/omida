@@ -19,7 +19,7 @@ const FirstSquares = () => {
       <div className={styles.square}>
         <img className={styles.image} src={castle} alt="castle"/>
       </div>
-      <div className={styles.square}>
+      <div className={cs(styles.square, styles.wrapper)}>
         <h1>
           {t('home.WhenBeing')}
         </h1>
