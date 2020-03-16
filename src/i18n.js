@@ -12,7 +12,9 @@ i18n
     fallbackLng: 'en',
     debug: false,
     lng: 'en',
-
+    backend: {
+      loadPath: '/Mido/locales/{{lng}}/{{ns}}.json'
+    },
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
     }
