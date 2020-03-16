@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mido/static/css/main.7797cd88.chunk.css",
-    "main.js": "/mido/static/js/main.41ee1108.chunk.js",
-    "main.js.map": "/mido/static/js/main.41ee1108.chunk.js.map",
+    "main.js": "/mido/static/js/main.c3bf6258.chunk.js",
+    "main.js.map": "/mido/static/js/main.c3bf6258.chunk.js.map",
     "runtime-main.js": "/mido/static/js/runtime-main.5d9f3835.js",
     "runtime-main.js.map": "/mido/static/js/runtime-main.5d9f3835.js.map",
     "static/css/2.7abef457.chunk.css": "/mido/static/css/2.7abef457.chunk.css",
     "static/js/2.d2bb7ca7.chunk.js": "/mido/static/js/2.d2bb7ca7.chunk.js",
     "static/js/2.d2bb7ca7.chunk.js.map": "/mido/static/js/2.d2bb7ca7.chunk.js.map",
     "index.html": "/mido/index.html",
-    "precache-manifest.3620d1799e6a89e87791905fceec9d1b.js": "/mido/precache-manifest.3620d1799e6a89e87791905fceec9d1b.js",
+    "precache-manifest.009a1b7efbce5ecdec64a62e8e86eec2.js": "/mido/precache-manifest.009a1b7efbce5ecdec64a62e8e86eec2.js",
     "service-worker.js": "/mido/service-worker.js",
     "static/css/2.7abef457.chunk.css.map": "/mido/static/css/2.7abef457.chunk.css.map",
     "static/css/main.7797cd88.chunk.css.map": "/mido/static/css/main.7797cd88.chunk.css.map",

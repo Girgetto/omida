@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ce86da125b2ab077bf1937d9a5188a9",
+    "revision": "2a62891fe40eb0101150be5c88f2726c",
     "url": "/mido/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mido/static/css/2.7abef457.chunk.css"
   },
   {
-    "revision": "d4f7432d026d817f3e86",
+    "revision": "ca5df73787852a8fef82",
     "url": "/mido/static/css/main.7797cd88.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mido/static/js/2.d2bb7ca7.chunk.js"
   },
   {
-    "revision": "d4f7432d026d817f3e86",
-    "url": "/mido/static/js/main.41ee1108.chunk.js"
+    "revision": "ca5df73787852a8fef82",
+    "url": "/mido/static/js/main.c3bf6258.chunk.js"
   },
   {
     "revision": "f92ce9803cf5060235ce",
