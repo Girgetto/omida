@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Mido/static/css/main.7797cd88.chunk.css",
-    "main.js": "/Mido/static/js/main.922689c3.chunk.js",
-    "main.js.map": "/Mido/static/js/main.922689c3.chunk.js.map",
-    "runtime-main.js": "/Mido/static/js/runtime-main.03c776ee.js",
-    "runtime-main.js.map": "/Mido/static/js/runtime-main.03c776ee.js.map",
-    "static/css/2.7abef457.chunk.css": "/Mido/static/css/2.7abef457.chunk.css",
-    "static/js/2.df2ea45c.chunk.js": "/Mido/static/js/2.df2ea45c.chunk.js",
-    "static/js/2.df2ea45c.chunk.js.map": "/Mido/static/js/2.df2ea45c.chunk.js.map",
-    "index.html": "/Mido/index.html",
-    "precache-manifest.f2e0016bc80b3d03d97e8e5b44b8aada.js": "/Mido/precache-manifest.f2e0016bc80b3d03d97e8e5b44b8aada.js",
-    "service-worker.js": "/Mido/service-worker.js",
-    "static/css/2.7abef457.chunk.css.map": "/Mido/static/css/2.7abef457.chunk.css.map",
-    "static/css/main.7797cd88.chunk.css.map": "/Mido/static/css/main.7797cd88.chunk.css.map",
-    "static/media/castle.jpg": "/Mido/static/media/castle.4fb59ba1.jpg",
-    "static/media/view1.jpg": "/Mido/static/media/view1.3f8db832.jpg",
-    "static/media/view2.jpg": "/Mido/static/media/view2.2665f2b4.jpg",
-    "static/media/view3.jpg": "/Mido/static/media/view3.d799d264.jpg"
+    "main.css": "/mido/static/css/main.7797cd88.chunk.css",
+    "main.js": "/mido/static/js/main.eec81d37.chunk.js",
+    "main.js.map": "/mido/static/js/main.eec81d37.chunk.js.map",
+    "runtime-main.js": "/mido/static/js/runtime-main.360666b1.js",
+    "runtime-main.js.map": "/mido/static/js/runtime-main.360666b1.js.map",
+    "static/css/2.7abef457.chunk.css": "/mido/static/css/2.7abef457.chunk.css",
+    "static/js/2.3205d11e.chunk.js": "/mido/static/js/2.3205d11e.chunk.js",
+    "static/js/2.3205d11e.chunk.js.map": "/mido/static/js/2.3205d11e.chunk.js.map",
+    "index.html": "/mido/index.html",
+    "precache-manifest.2774cfbc73a71f6b8d36d12fcf48cd1d.js": "/mido/precache-manifest.2774cfbc73a71f6b8d36d12fcf48cd1d.js",
+    "service-worker.js": "/mido/service-worker.js",
+    "static/css/2.7abef457.chunk.css.map": "/mido/static/css/2.7abef457.chunk.css.map",
+    "static/css/main.7797cd88.chunk.css.map": "/mido/static/css/main.7797cd88.chunk.css.map",
+    "static/media/castle.jpg": "/mido/static/media/castle.4fb59ba1.jpg",
+    "static/media/view1.jpg": "/mido/static/media/view1.3f8db832.jpg",
+    "static/media/view2.jpg": "/mido/static/media/view2.2665f2b4.jpg",
+    "static/media/view3.jpg": "/mido/static/media/view3.d799d264.jpg"
   }
 }
