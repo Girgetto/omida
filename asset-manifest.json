@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Mido/static/css/main.7797cd88.chunk.css",
-    "main.js": "/Mido/static/js/main.922689c3.chunk.js",
-    "main.js.map": "/Mido/static/js/main.922689c3.chunk.js.map",
+    "main.js": "/Mido/static/js/main.375863b5.chunk.js",
+    "main.js.map": "/Mido/static/js/main.375863b5.chunk.js.map",
     "runtime-main.js": "/Mido/static/js/runtime-main.03c776ee.js",
     "runtime-main.js.map": "/Mido/static/js/runtime-main.03c776ee.js.map",
     "static/css/2.7abef457.chunk.css": "/Mido/static/css/2.7abef457.chunk.css",
     "static/js/2.df2ea45c.chunk.js": "/Mido/static/js/2.df2ea45c.chunk.js",
     "static/js/2.df2ea45c.chunk.js.map": "/Mido/static/js/2.df2ea45c.chunk.js.map",
     "index.html": "/Mido/index.html",
-    "precache-manifest.f2e0016bc80b3d03d97e8e5b44b8aada.js": "/Mido/precache-manifest.f2e0016bc80b3d03d97e8e5b44b8aada.js",
+    "precache-manifest.7d208b8b0f728d3d88f9690b7c0b8d71.js": "/Mido/precache-manifest.7d208b8b0f728d3d88f9690b7c0b8d71.js",
     "service-worker.js": "/Mido/service-worker.js",
     "static/css/2.7abef457.chunk.css.map": "/Mido/static/css/2.7abef457.chunk.css.map",
     "static/css/main.7797cd88.chunk.css.map": "/Mido/static/css/main.7797cd88.chunk.css.map",
