@@ -10,10 +10,7 @@ i18n
   .use(initReactI18next)
   .init({
     backend: {
-      loadPath:
-        process.env.REACT_APP_ENV === 'development'
-          ? '/locales/{{lng}}/{{ns}}.json'
-          : '/mido/locales/{{lng}}/{{ns}}.json'
+      loadPath:'/mido/locales/{{lng}}/{{ns}}.json'
     },
     fallbackLng: 'en',
     debug: false,
