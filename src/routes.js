@@ -6,7 +6,7 @@ import { MainLayout } from './components/layout';
 const Routes = (
   <Switch>
     <Route
-      path="/"
+      path="*"
       exact
       component={() => (
         <MainLayout>
