@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Mido/static/css/main.7797cd88.chunk.css",
-    "main.js": "/Mido/static/js/main.375863b5.chunk.js",
-    "main.js.map": "/Mido/static/js/main.375863b5.chunk.js.map",
-    "runtime-main.js": "/Mido/static/js/runtime-main.03c776ee.js",
-    "runtime-main.js.map": "/Mido/static/js/runtime-main.03c776ee.js.map",
-    "static/css/2.7abef457.chunk.css": "/Mido/static/css/2.7abef457.chunk.css",
-    "static/js/2.df2ea45c.chunk.js": "/Mido/static/js/2.df2ea45c.chunk.js",
-    "static/js/2.df2ea45c.chunk.js.map": "/Mido/static/js/2.df2ea45c.chunk.js.map",
-    "index.html": "/Mido/index.html",
-    "precache-manifest.7d208b8b0f728d3d88f9690b7c0b8d71.js": "/Mido/precache-manifest.7d208b8b0f728d3d88f9690b7c0b8d71.js",
-    "service-worker.js": "/Mido/service-worker.js",
-    "static/css/2.7abef457.chunk.css.map": "/Mido/static/css/2.7abef457.chunk.css.map",
-    "static/css/main.7797cd88.chunk.css.map": "/Mido/static/css/main.7797cd88.chunk.css.map",
-    "static/media/castle.jpg": "/Mido/static/media/castle.4fb59ba1.jpg",
-    "static/media/view1.jpg": "/Mido/static/media/view1.3f8db832.jpg",
-    "static/media/view2.jpg": "/Mido/static/media/view2.2665f2b4.jpg",
-    "static/media/view3.jpg": "/Mido/static/media/view3.d799d264.jpg"
+    "main.css": "/static/css/main.7797cd88.chunk.css",
+    "main.js": "/static/js/main.f1e59a2e.chunk.js",
+    "main.js.map": "/static/js/main.f1e59a2e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.55937d4e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.55937d4e.js.map",
+    "static/css/2.7abef457.chunk.css": "/static/css/2.7abef457.chunk.css",
+    "static/js/2.c66a4802.chunk.js": "/static/js/2.c66a4802.chunk.js",
+    "static/js/2.c66a4802.chunk.js.map": "/static/js/2.c66a4802.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a10fe574c6bf2125ea69b1cf47a6fb26.js": "/precache-manifest.a10fe574c6bf2125ea69b1cf47a6fb26.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.7abef457.chunk.css.map": "/static/css/2.7abef457.chunk.css.map",
+    "static/css/main.7797cd88.chunk.css.map": "/static/css/main.7797cd88.chunk.css.map",
+    "static/media/castle.jpg": "/static/media/castle.4fb59ba1.jpg",
+    "static/media/view1.jpg": "/static/media/view1.3f8db832.jpg",
+    "static/media/view2.jpg": "/static/media/view2.2665f2b4.jpg",
+    "static/media/view3.jpg": "/static/media/view3.d799d264.jpg"
   }
 }
