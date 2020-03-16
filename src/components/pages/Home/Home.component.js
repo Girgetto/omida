@@ -5,7 +5,7 @@ const Home = ({ className }) => {
   return (
     <Suspense fallback={<div>Loading</div>}>
       <div className={className}>
-        <Comp.FirstSection />
+        <Comp.Main />
         <Comp.SecondSection />
         <Comp.OurMission />
         <Comp.FirstRow />

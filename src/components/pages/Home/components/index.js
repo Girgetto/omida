@@ -1,4 +1,4 @@
-import FirstSection from './FirstSection';
+import Main from './Main';
 import SecondSection from './SecondSection';
 import OurMission from './OurMission';
 import FirstRow from './FirstRow';
@@ -7,7 +7,7 @@ import ThirdRow from './ThirdRow';
 import LastSection from './LastSection';
 
 export {
-  FirstSection,
+  Main,
   SecondSection,
   OurMission,
   FirstRow,

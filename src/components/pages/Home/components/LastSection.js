@@ -5,7 +5,7 @@ import styles from './style.module.scss';
 const LastSection = () => {
   const [t] = useTranslation();
   return (
-    <div className={styles.lastSection}>
+    <div className={styles.lastSection} data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
       <div>
         <h1>
           {t('home.ATradition')}

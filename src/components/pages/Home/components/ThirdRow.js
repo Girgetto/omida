@@ -7,7 +7,7 @@ import cs from 'classnames';
 const FirstSquares = () => {
   const [t] = useTranslation();
   return (
-    <div className={styles.squares}>
+    <div className={styles.squares} data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
       <div className={cs(styles.square, styles.wrapper)}>
         <h1>
           {t('home.PrivacyAndDiscretion')}

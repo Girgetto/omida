@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-const FirstSection = () => {
+const Main = () => {
   const [t] = useTranslation();
   return (
   <section className="firstSection">
@@ -10,4 +10,4 @@ const FirstSection = () => {
   </section>
 )};
 
-export default FirstSection;
+export default Main;
