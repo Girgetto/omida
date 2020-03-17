@@ -1,5 +1,5 @@
+import React, { Suspense } from 'react';
 import { PersistGate } from 'redux-persist/integration/react';
-import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'connected-react-router';
@@ -56,7 +56,9 @@ ReactDOM.render(
   <Provider store={store}>
     <PersistGate persistor={persistor}>
       <GlobalStyles />
-      <ConnectedRouter history={history}>{Routes}</ConnectedRouter>
+      <Suspense fallback="loading">
+        <ConnectedRouter history={history}>{Routes}</ConnectedRouter>
+      </Suspense>
     </PersistGate>
   </Provider>,
   document.getElementById('root')
