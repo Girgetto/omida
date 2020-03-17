@@ -8,6 +8,7 @@
     "axios": "^0.19.0",
     "classnames": "^2.2.6",
     "connected-react-router": "^4.3.0",
+    "dotenv-cli": "^3.1.0",
     "draft-js": "^0.11.0",
     "draft-js-plugins-editor": "^3.0.0",
     "draft-js-side-toolbar-plugin": "^3.0.2",
@@ -40,8 +41,8 @@
     "styled-components": "^4.3.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "dotenv -e .env.development react-scripts start",
+    "build": "dotenv -e .env.production react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "node_modules/.bin/eslint .",
