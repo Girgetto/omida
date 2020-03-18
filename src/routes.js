@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { Home, AboutUs } from './components/pages';
+import { Home, AboutUs, Services } from './components/pages';
 import { MainLayout } from './components/layout';
 import { ROUTES } from './constants';
 
@@ -21,6 +21,15 @@ const Routes = (
       component={() => (
         <MainLayout>
           <Home />
+        </MainLayout>
+      )}
+    />
+    <Route
+      path={ROUTES.services}
+      exact
+      component={() => (
+        <MainLayout>
+          <Services />
         </MainLayout>
       )}
     />

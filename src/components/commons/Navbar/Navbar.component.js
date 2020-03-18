@@ -13,6 +13,7 @@ const Navbar = ({ className, setLanguage }) => {
       <ul className="list">
         <Link to={ROUTES.index}>Home</Link>
         <Link to={ROUTES.aboutUs}>About Us</Link>
+        <Link to={ROUTES.services}>Services</Link>
       </ul>
       <div  className="language">
         <span className="language__gb" onClick={() => changeLanguage('en')} role="img" aria-label="en">

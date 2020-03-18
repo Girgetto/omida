@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import Link from 'react-router-dom/Link';
 
 const AboutUs = ({ className }) => {
   const [t] = useTranslation();
@@ -9,7 +10,7 @@ const AboutUs = ({ className }) => {
       <main>
         <h1>{t('about.35Years', '35Years')}</h1>
         <p>{t('about.Mido', 'Mido')}</p>
-        <a>{t('about.LearnMore', 'LearnMore')}</a>
+        <Link to={'/'}>{t('about.LearnMore', 'LearnMore')}</Link>
       </main>
     </div>
   );

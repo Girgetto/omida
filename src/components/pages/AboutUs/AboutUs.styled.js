@@ -8,4 +8,9 @@ export default styled(AboutUs).attrs({})`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
 `;
