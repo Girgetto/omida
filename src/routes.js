@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import { Home, AboutUs, Services } from './components/pages';
 import { MainLayout } from './components/layout';
 import { ROUTES } from './constants';
@@ -30,6 +30,15 @@ const Routes = (
       component={() => (
         <MainLayout>
           <Services />
+        </MainLayout>
+      )}
+    />
+    <Route
+      path={'*'}
+      exact
+      component={() => (
+        <MainLayout>
+          <Redirect to={ROUTES.index} />
         </MainLayout>
       )}
     />
