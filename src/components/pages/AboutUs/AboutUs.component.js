@@ -9,7 +9,7 @@ const AboutUs = ({ className }) => {
       <h1>{t('about.EachHuman', 'EachHuman')}</h1>
       <main>
         <h1>{t('about.35Years', '35Years')}</h1>
-        <p>{t('about.Mido', 'Mido')}</p>
+        <p>{t('about.Remida', 'Remida')}</p>
         <Link to={'/'}>{t('about.LearnMore', 'LearnMore')}</Link>
       </main>
     </div>

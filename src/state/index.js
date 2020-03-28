@@ -12,7 +12,7 @@ import rootSagas from './sagas-registration';
 const sagaMiddleware = createSagaMiddleware();
 
 const history = createBrowserHistory({
-  baseUrl: '/mido'
+  baseUrl: '/remida'
 });
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose; // eslint-disable-line no-undef
