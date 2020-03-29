@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import { Home, AboutUs, Services } from './components/pages';
+import { Home, AboutUs, Services, Contacts } from './components/pages';
 import { MainLayout } from './components/layout';
 import { ROUTES } from './constants';
 
@@ -30,6 +30,15 @@ const Routes = (
       component={() => (
         <MainLayout>
           <Services />
+        </MainLayout>
+      )}
+    />
+    <Route
+      path={ROUTES.contacts}
+      exact
+      component={() => (
+        <MainLayout>
+          <Contacts />
         </MainLayout>
       )}
     />

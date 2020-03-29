@@ -93,6 +93,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 body {
@@ -103,10 +104,14 @@ body {
 img {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+  transition: filter 1s;
 }
 
 img:hover {
-  transition: filter 1s;
   filter: none;
   -webkit-filter: none;
+}
+
+#root {
+  height: 100%;
 }

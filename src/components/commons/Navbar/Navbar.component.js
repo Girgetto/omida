@@ -31,6 +31,12 @@ const Navbar = ({ className, setLanguage }) => {
         >
           Services
         </Link>
+        <Link
+          to={ROUTES.contacts}
+          className={cs(window.location.href.includes('contacts') && 'selected')}
+        >
+          Contacts
+        </Link>
       </ul>
       <div className="language">
         <span
