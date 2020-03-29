@@ -1,9 +1,9 @@
   
 {
-  "title": "MIDO",
+  "title": "Remida",
   "home": {
     "RealEstate": "Real Estate and Business Advisory",
-    "ConsultancyMediation": "/ Consulenza, mediazione e riservatezza/ Sempre un passo avanti verso la soluzione/ Conoscere per investire",
+    "ConsultancyMediation": "Consulenza, mediazione e riservatezza. Sempre un passo avanti verso la soluzione. Conoscere per investire",
     "Analysis": "Analisi",
     "Consultancy": "Consulenza",
     "Coordination": "Coordinamento",
@@ -31,12 +31,12 @@
   "about": {
     "EachHuman": "Tutti gli uomini hanno tre vite: quella pubblica, quella privata e quella segreta. L’ultima è quella per gestire gli affari importanti.",
     "35Years": "35 anni di esperienza",
-    "Mido": "Mido nasce da un progetto di Franco Grassini e ha come obbiettivo quello di offrire all’investitore un nuovo sistema di fare consulenza per garantire elevati standard di soddisfazione. Con l’esperienza maturata nel settore immobiliare ha avviato un processo di crescita che ha reso più consapevole la figura del consulente immobiliare per garantire un’assistenza che va oltre l’individuazione di una proprietà interessante. 006+1 infatti ti accompagna anche nel periodo successivo all’investimento assicurandosi che ogni aspetto sia curato in maniera esaustiva. Conoscendo approfonditamente le funzioni e i meccanismi della legislazione italiana e le problematiche ad essa legate, oggi 006+1 gestisce e coordina una rete consolidata di professionisti specializzati, supervisionando l'analisi di documenti, certificazioni e la fase di progettazione dell’intera operazione.",
+    "Remida": "Remida nasce da un progetto di Franco Grassini e ha come obbiettivo quello di offrire all’investitore un nuovo sistema di fare consulenza per garantire elevati standard di soddisfazione. Con l’esperienza maturata nel settore immobiliare ha avviato un processo di crescita che ha reso più consapevole la figura del consulente immobiliare per garantire un’assistenza che va oltre l’individuazione di una proprietà interessante. 006+1 infatti ti accompagna anche nel periodo successivo all’investimento assicurandosi che ogni aspetto sia curato in maniera esaustiva. Conoscendo approfonditamente le funzioni e i meccanismi della legislazione italiana e le problematiche ad essa legate, oggi 006+1 gestisce e coordina una rete consolidata di professionisti specializzati, supervisionando l'analisi di documenti, certificazioni e la fase di progettazione dell’intera operazione.",
     "LearnMore": "Scopri di più"
   },
   "services": {
-    "Intro": "intro",
-    "IntroText": "Intro Con un servizio ritagliato su misura possiamo rispondere ad ogni esigenza per un percorso di investimento sereno e trasparente.",
+    "Intro": "Intro",
+    "IntroText": "Con un servizio ritagliato su misura possiamo rispondere ad ogni esigenza per un percorso di investimento sereno e trasparente.",
     "LuxoryRealEstate": "Luxury Real estate",
     "Business Advisory": "Business Advisory",
     "TechnicalAdvice": "Consulenza Tecnica",
