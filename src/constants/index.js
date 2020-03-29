@@ -1,5 +1,5 @@
 export const ROUTES = {
-  index: '/remida',
+  index: '/remida/home',
   aboutUs: '/remida/about-us',
   services: '/remida/services'
 }

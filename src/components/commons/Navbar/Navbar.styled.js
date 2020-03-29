@@ -12,6 +12,10 @@ export default styled(Navbar).attrs({})`
   left: 0;
   padding: 1% 0%;
 
+  .selected {
+    border-bottom: 1px solid;
+  }
+
   .list {
     width: 80vw;
     max-width: 80vw;

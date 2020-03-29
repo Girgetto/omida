@@ -7,15 +7,15 @@ import styles from './style.module.scss';
 const OurMission = () => {
   const [t] = useTranslation();
   return (
-    <div className={styled.ourMission}>
+    <div
+      className={styled.ourMission}
+      data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom"
+    >
       <div className={styled.column_2}>
         <img className={styles.image} src={view4} alt="view4" />
       </div>
-      <div
-        className={styled.column_2}
-        data-aos="fade-up"
-        data-aos-anchor-placement="bottom-bottom"
-      >
+      <div className={styled.column_2}>
         <div>
           <h1>{t('home.OurMission')}</h1>
         </div>
