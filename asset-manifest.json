@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/remida/static/css/main.e042085f.chunk.css",
+    "main.css": "/remida/static/css/main.1497115e.chunk.css",
     "main.js": "/remida/static/js/main.84925107.chunk.js",
     "main.js.map": "/remida/static/js/main.84925107.chunk.js.map",
     "runtime-main.js": "/remida/static/js/runtime-main.e26b969b.js",
@@ -9,10 +9,10 @@
     "static/js/2.e89e214f.chunk.js": "/remida/static/js/2.e89e214f.chunk.js",
     "static/js/2.e89e214f.chunk.js.map": "/remida/static/js/2.e89e214f.chunk.js.map",
     "index.html": "/remida/index.html",
-    "precache-manifest.ee83d9c067235f91eae597a3bf8109c2.js": "/remida/precache-manifest.ee83d9c067235f91eae597a3bf8109c2.js",
+    "precache-manifest.a081fa6f6e02e43e85a52295e3a99cfb.js": "/remida/precache-manifest.a081fa6f6e02e43e85a52295e3a99cfb.js",
     "service-worker.js": "/remida/service-worker.js",
     "static/css/2.7abef457.chunk.css.map": "/remida/static/css/2.7abef457.chunk.css.map",
-    "static/css/main.e042085f.chunk.css.map": "/remida/static/css/main.e042085f.chunk.css.map",
+    "static/css/main.1497115e.chunk.css.map": "/remida/static/css/main.1497115e.chunk.css.map",
     "static/media/castle.jpg": "/remida/static/media/castle.8af3760b.jpg",
     "static/media/view1.jpg": "/remida/static/media/view1.f619d647.jpg",
     "static/media/view2.jpg": "/remida/static/media/view2.14208f82.jpg",
