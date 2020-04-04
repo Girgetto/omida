@@ -43,7 +43,7 @@ const Routes = (
       )}
     />
     <Route
-      path={'*'}
+      path='*'
       exact
       component={() => (
         <MainLayout>
@@ -51,6 +51,7 @@ const Routes = (
         </MainLayout>
       )}
     />
+    <Redirect to='/'/>
   </Switch>
 );
 

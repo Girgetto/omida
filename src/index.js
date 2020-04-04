@@ -9,6 +9,7 @@ import { store, persistor, history } from './state';
 import Routes from './routes';
 import './style.scss';
 import './i18n';
+import * as serviceWorker from './serviceWorker';
 import { createGlobalStyle } from 'styled-components';
 const GlobalStyles = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Notable');
@@ -43,3 +44,5 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
+
+serviceWorker.register();
