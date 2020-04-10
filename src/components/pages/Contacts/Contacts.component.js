@@ -5,8 +5,13 @@ const Contacts = ({ className }) => {
   const [t] = useTranslation();
   return (
     <div className={className}>
-      <p>{t('contact.ContactUs', 'Contacts')}</p>
+      
+      <div>
+        <p>{t('contact.ContactUs', 'Contacts')}</p>
+        <div>info@remida-realestate.com</div>
+      </div>
     </div>
+    
   );
 };
 
