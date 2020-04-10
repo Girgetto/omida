@@ -5,35 +5,48 @@ import i18n from 'i18next';
 import cs from 'classnames';
 
 const Navbar = ({ className, setLanguage }) => {
-  const changeLanguage = lng => {
+  const changeLanguage = (lng) => {
     setLanguage(lng);
     i18n.changeLanguage(lng);
   };
+
+  const PREFIX =
+    process.env.REACT_APP_ENV === 'development'
+      ? 'http://localhost:3000'
+      : 'https://girgetto.github.io/remida';
 
   return (
     <div className={className}>
       <ul className="list">
         <Link
           to={ROUTES.index}
-          className={cs(window.location.href.includes('home') && 'selected')}
+          className={cs(
+            window.location.href === PREFIX + ROUTES.index && 'selected'
+          )}
         >
           Home
         </Link>
         <Link
           to={ROUTES.aboutUs}
-          className={cs(window.location.href.includes('about') && 'selected')}
+          className={cs(
+            window.location.href === PREFIX + ROUTES.aboutUs && 'selected'
+          )}
         >
           About Us
         </Link>
         <Link
           to={ROUTES.services}
-          className={cs(window.location.href.includes('services') && 'selected')}
+          className={cs(
+            window.location.href === PREFIX + ROUTES.services && 'selected'
+          )}
         >
           Services
         </Link>
         <Link
           to={ROUTES.contacts}
-          className={cs(window.location.href.includes('contacts') && 'selected')}
+          className={cs(
+            window.location.href === PREFIX + ROUTES.contacts && 'selected'
+          )}
         >
           Contacts
         </Link>
