@@ -13,7 +13,7 @@ i18n
       loadPath:
         process.env.REACT_APP_ENV === 'development'
           ? '/locales/{{lng}}/{{ns}}.json'
-          : '/locales/{{lng}}/{{ns}}.json'
+          : '/remida/locales/{{lng}}/{{ns}}.json'
     },
     fallbackLng: 'en',
     debug: false,
