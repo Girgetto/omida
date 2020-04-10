@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c702248799fb406ab6de26444537a072",
+    "revision": "65eb88b06a4d0756d2d33e336b582c24",
     "url": "/remida/index.html"
   },
   {
-    "revision": "8ad66ed35d1aa34038ba",
-    "url": "/remida/static/css/2.7abef457.chunk.css"
+    "revision": "251f35ccc0cbae0adb0a",
+    "url": "/remida/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "f05799ef5436ea1bb767",
-    "url": "/remida/static/css/main.9ee08266.chunk.css"
+    "revision": "0c4ef15351e6120a4bd9",
+    "url": "/remida/static/css/main.68cfcf3f.chunk.css"
   },
   {
-    "revision": "8ad66ed35d1aa34038ba",
-    "url": "/remida/static/js/2.e89e214f.chunk.js"
+    "revision": "251f35ccc0cbae0adb0a",
+    "url": "/remida/static/js/2.327f5418.chunk.js"
   },
   {
-    "revision": "f05799ef5436ea1bb767",
-    "url": "/remida/static/js/main.391218a7.chunk.js"
+    "revision": "0c4ef15351e6120a4bd9",
+    "url": "/remida/static/js/main.2cd4be1f.chunk.js"
   },
   {
-    "revision": "7c38747dded57a2e07fd",
-    "url": "/remida/static/js/runtime-main.e26b969b.js"
+    "revision": "429e3c2c7896ccec9aef",
+    "url": "/remida/static/js/runtime-main.562a2011.js"
   },
   {
     "revision": "8af3760b24834980b371e43102de60f6",
