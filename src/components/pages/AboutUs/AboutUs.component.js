@@ -6,9 +6,9 @@ const AboutUs = ({ className }) => {
   const [t] = useTranslation();
   return (
     <div className={className}>
-      <h1>{t('about.EachHuman', 'EachHuman')}</h1>
+      <h2>{t('about.EachHuman', 'EachHuman')}</h2>
       <main>
-        <h1>{t('about.35Years', '35Years')}</h1>
+        <h2>{t('about.35Years', '35Years')}</h2>
         <p>{t('about.Remida', 'Remida')}</p>
         <Link to={'/'}>{t('about.LearnMore', 'LearnMore')}</Link>
       </main>

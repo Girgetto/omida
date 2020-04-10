@@ -1,4 +1,4 @@
-@import "../../../../scss/main.scss";
+@import '../../../../scss/main.scss';
 
 .column_2 {
   width: 50%;
@@ -28,7 +28,7 @@
   .wrapper {
     padding: 4%;
   }
-  
+
   .square {
     width: 33%;
     .image {
@@ -51,4 +51,39 @@
 
 .image {
   width: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .column_2 {
+    width: 100%;  
+  }
+  .ourMission {
+    flex-direction: column;
+  }
+
+  .squares {
+    flex-direction: column;
+    margin: 150px;
+
+    .square {
+      width: 100%;
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }

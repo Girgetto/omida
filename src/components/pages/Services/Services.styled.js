@@ -6,7 +6,6 @@ export default styled(Services).attrs({})`
   width: 60%;
 
   .titles {
-    line-height: 4rem;
     letter-spacing: 0.1rem;
   }
 `;
