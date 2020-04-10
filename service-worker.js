@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/remida/precache-manifest.7e4cfd3b8ac13d0a3acde245de775eb8.js"
+  "/remida/precache-manifest.c848c63f629714b3853c13d5045bf314.js"
 );
 
 self.addEventListener('message', (event) => {
