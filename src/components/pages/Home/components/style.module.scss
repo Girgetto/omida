@@ -5,31 +5,17 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 60vh;
-
   .mainTitle {
-    z-index: 1;
-    font-size: 1rem;
-  }
-
-  .shadow {
-    display: block;
-    position: absolute;
-  }
-
-  img {
-    width: 300px;
-  }
-
-  .shadow:before {
-    display: block;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -moz-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 1);
-    -webkit-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 1);
-    box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url('../../../../assets/img/franco.jpg');
+    background-repeat: no-repeat;
+    object-fit: contain;
+    min-height: 500px;
+    background-position: center;
+    padding: 2rem;
+    box-shadow: 0 0 38px 48px black inset;
   }
 }
 

@@ -6,12 +6,13 @@ const Main = () => {
   const [t] = useTranslation();
   return (
     <section className={style.firstSection}>
-      <div className={style.shadow}>
-        <img src={require('../../../../assets/img/franco.jpg')} alt="franco" />
-      </div>
       <div className={style.mainTitle}>
-        <h1>{t('title')}</h1>
-        <p>{t('home.RealEstate')}</p>
+        <h1 data-aos="fade-right" data-aos-duration="1000">
+          {t('title')}
+        </h1>
+        <p data-aos="fade-left" data-aos-duration="1000">
+          {t('home.RealEstate')}
+        </p>
       </div>
     </section>
   );
