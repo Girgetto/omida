@@ -2,10 +2,10 @@ import React, { Suspense } from 'react';
 import { PersistGate } from 'redux-persist/integration/react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { ConnectedRouter } from 'connected-react-router';
+import { HashRouter } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { store, persistor, history } from './state';
+import { store, persistor } from './state';
 import Routes from './routes';
 import './style.scss';
 import './i18n';
@@ -19,7 +19,7 @@ ReactDOM.render(
     <PersistGate persistor={persistor}>
       <GlobalStyles />
       <Suspense fallback="loading">
-        <ConnectedRouter history={history}>{Routes}</ConnectedRouter>
+        <HashRouter>{Routes}</HashRouter>
       </Suspense>
     </PersistGate>
   </Provider>,
