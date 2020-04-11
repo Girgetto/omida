@@ -15,7 +15,6 @@ const Navbar = ({ className, setLanguage }) => {
   ? 'http://localhost:3000/#'
   : 'https://girgetto.github.io/remida/#';
   
-  console.log(window.location.href, PREFIX + ROUTES.index);
   return (
     <div className={className}>
       <ul className="list">
