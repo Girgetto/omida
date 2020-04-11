@@ -10,7 +10,7 @@ const OurMission = () => {
     <div
       className={styled.ourMission}
       data-aos="fade-up"
-      data-aos-anchor-placement="bottom-bottom"
+      data-aos-anchor-placement="top-center"
     >
       <div className={styled.column_2}>
         <img className={styles.image} src={view4} alt="view4" />
