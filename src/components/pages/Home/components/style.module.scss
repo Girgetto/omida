@@ -20,6 +20,7 @@
 }
 
 .column_2 {
+  position: relative;
   width: 50%;
   padding: 20px;
 }
@@ -62,11 +63,6 @@
 
 .ourMission {
   display: flex;
-  margin: 150px;
-}
-
-.lastSection {
-  margin: 150px;
 }
 
 .image {
@@ -90,20 +86,36 @@
   .column_2 {
     width: 100%;
   }
+
   .ourMission {
     flex-direction: column;
   }
 
   .squares {
     flex-direction: column;
-    margin: 150px;
 
     .square {
       width: 100%;
     }
   }
+
+  .lastSection {
+    padding: 4%;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .column_2 {
+    position: relative;
+  }
+
+  .ourMission {
+    display: flex;
+    margin: 150px;
+  }
+
+  .lastSection {
+    margin: 150px;
+  }
 }

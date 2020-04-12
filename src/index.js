@@ -11,6 +11,7 @@ import './style.scss';
 import './i18n';
 import * as serviceWorker from './serviceWorker';
 import GlobalStyles from './GlobalStyles';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 AOS.init();
 
@@ -19,7 +20,9 @@ ReactDOM.render(
     <PersistGate persistor={persistor}>
       <GlobalStyles />
       <Suspense fallback="loading">
-        <HashRouter>{Routes}</HashRouter>
+        <ParallaxProvider>
+          <HashRouter>{Routes}</HashRouter>
+        </ParallaxProvider>
       </Suspense>
     </PersistGate>
   </Provider>,
