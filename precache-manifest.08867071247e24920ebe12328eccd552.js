@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be4ff6169777361859562ef9d3c964a3",
+    "revision": "94575e2510d660046a021e132ccd341b",
     "url": "/remida/index.html"
   },
   {
-    "revision": "0a08eef5cebf2b6f2147",
+    "revision": "298fa6010e74069bfb0a",
     "url": "/remida/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "3b22e0a7c2735248841f",
-    "url": "/remida/static/css/main.c5bff299.chunk.css"
+    "revision": "08e46b4614a4179df456",
+    "url": "/remida/static/css/main.6939aa42.chunk.css"
   },
   {
-    "revision": "0a08eef5cebf2b6f2147",
-    "url": "/remida/static/js/2.3c2df0f9.chunk.js"
+    "revision": "298fa6010e74069bfb0a",
+    "url": "/remida/static/js/2.c01b589b.chunk.js"
   },
   {
-    "revision": "3b22e0a7c2735248841f",
-    "url": "/remida/static/js/main.9c2af5f6.chunk.js"
+    "revision": "08e46b4614a4179df456",
+    "url": "/remida/static/js/main.6c79acbf.chunk.js"
   },
   {
     "revision": "429e3c2c7896ccec9aef",
