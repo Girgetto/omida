@@ -1,7 +1,4 @@
-import MainLayout from './MainLayout/MainLayout.styled';
-import SEO from './Seo';
+import MainLayout from './MainLayout/MainLayout.styled'
+import SEO from './SEO'
 
-export {
-  MainLayout,
-  SEO
-}
+export { MainLayout, SEO }

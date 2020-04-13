@@ -1,11 +1,11 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
-import styles from './style.module.scss';
-import view3 from '../../../../assets/img/view3.jpg';
-import cs from 'classnames';
+import React from 'react'
+import { useTranslation } from 'react-i18next'
+import styles from './style.module.scss'
+import view3 from '../../../../assets/img/view3.jpg'
+import cs from 'classnames'
 
 const FirstSquares = () => {
-  const [t] = useTranslation();
+  const [t] = useTranslation()
   return (
     <div
       className={styles.squares}
@@ -24,7 +24,7 @@ const FirstSquares = () => {
         <p>{t('home.WithAGrowing')}</p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default FirstSquares;
+export default FirstSquares

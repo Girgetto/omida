@@ -1,6 +1,6 @@
-import React, { Suspense } from 'react';
-import * as Comp from './components';
-import { SEO } from '../../layout';
+import React, { Suspense } from 'react'
+import * as Comp from './components'
+import { SEO } from '../../layout'
 
 const Home = ({ className }) => {
   return (
@@ -17,7 +17,7 @@ const Home = ({ className }) => {
         </div>
       </SEO>
     </Suspense>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

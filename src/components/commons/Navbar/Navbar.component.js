@@ -1,20 +1,20 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { ROUTES } from '../../../constants';
-import i18n from 'i18next';
-import cs from 'classnames';
+import React from 'react'
+import { Link } from 'react-router-dom'
+import { ROUTES } from '../../../constants'
+import i18n from 'i18next'
+import cs from 'classnames'
 
 const Navbar = ({ className, setLanguage }) => {
   const changeLanguage = (lng) => {
-    setLanguage(lng);
-    i18n.changeLanguage(lng);
-  };
+    setLanguage(lng)
+    i18n.changeLanguage(lng)
+  }
 
   const PREFIX =
-  process.env.REACT_APP_ENV === 'development'
-  ? 'http://localhost:3000/#'
-  : 'https://girgetto.github.io/remida/#';
-  
+    process.env.REACT_APP_ENV === 'development'
+      ? 'http://localhost:3000/#'
+      : 'https://girgetto.github.io/remida/#'
+
   return (
     <div className={className}>
       <ul className="list">
@@ -78,7 +78,7 @@ const Navbar = ({ className, setLanguage }) => {
         </span>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

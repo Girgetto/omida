@@ -1,12 +1,12 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
-import styled from './style.module.scss';
-import view4 from '../../../../assets/img/view4.jpg';
-import styles from './style.module.scss';
-import { Parallax } from 'react-scroll-parallax';
+import React from 'react'
+import { useTranslation } from 'react-i18next'
+import styled from './style.module.scss'
+import view4 from '../../../../assets/img/view4.jpg'
+import styles from './style.module.scss'
+import { Parallax } from 'react-scroll-parallax'
 
 const OurMission = () => {
-  const [t] = useTranslation();
+  const [t] = useTranslation()
   return (
     <div
       className={styled.ourMission}
@@ -27,7 +27,7 @@ const OurMission = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default OurMission;
+export default OurMission

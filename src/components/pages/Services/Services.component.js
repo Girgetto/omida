@@ -1,9 +1,9 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
-import { SEO } from '../../layout';
+import React from 'react'
+import { useTranslation } from 'react-i18next'
+import { SEO } from '../../layout'
 
 const Services = ({ className }) => {
-  const [t] = useTranslation();
+  const [t] = useTranslation()
   return (
     <div className={className}>
       <SEO title="Remida | Services">
@@ -24,7 +24,7 @@ const Services = ({ className }) => {
         <p>{t('services.WeCoordinate')}</p>
       </SEO>
     </div>
-  );
-};
+  )
+}
 
-export default Services;
+export default Services

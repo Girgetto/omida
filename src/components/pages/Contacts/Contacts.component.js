@@ -1,9 +1,9 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
-import { SEO } from '../../layout';
+import React from 'react'
+import { useTranslation } from 'react-i18next'
+import { SEO } from '../../layout'
 
 const Contacts = ({ className }) => {
-  const [t] = useTranslation();
+  const [t] = useTranslation()
   return (
     <div className={className}>
       <SEO title="Remida | Contacts">
@@ -13,7 +13,7 @@ const Contacts = ({ className }) => {
         </div>
       </SEO>
     </div>
-  );
-};
+  )
+}
 
-export default Contacts;
+export default Contacts

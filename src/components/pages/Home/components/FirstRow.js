@@ -1,11 +1,11 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
-import styles from './style.module.scss';
-import castle from '../../../../assets/img/castle.jpg';
-import cs from 'classnames';
+import React from 'react'
+import { useTranslation } from 'react-i18next'
+import styles from './style.module.scss'
+import castle from '../../../../assets/img/castle.jpg'
+import cs from 'classnames'
 
 const FirstSquares = () => {
-  const [t] = useTranslation();
+  const [t] = useTranslation()
   return (
     <div
       className={styles.squares}
@@ -24,7 +24,7 @@ const FirstSquares = () => {
         <p>{t('home.InThree')}</p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default FirstSquares;
+export default FirstSquares

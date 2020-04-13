@@ -1,5 +1,5 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
+import React from 'react'
+import { Helmet } from 'react-helmet'
 
 const SEO = ({ title, description, children }) => (
   <>
@@ -10,6 +10,6 @@ const SEO = ({ title, description, children }) => (
     </Helmet>
     {children}
   </>
-);
+)
 
-export default SEO;
+export default SEO

@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import Services from './Services.component';
+import styled from 'styled-components'
+import Services from './Services.component'
 
 export default styled(Services).attrs({})`
   margin: 0 auto;
@@ -8,4 +8,4 @@ export default styled(Services).attrs({})`
   .titles {
     letter-spacing: 0.1rem;
   }
-`;
+`

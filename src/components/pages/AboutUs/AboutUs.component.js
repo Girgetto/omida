@@ -1,10 +1,10 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
-import Link from 'react-router-dom/Link';
-import { SEO } from '../../layout';
+import React from 'react'
+import { useTranslation } from 'react-i18next'
+import Link from 'react-router-dom/Link'
+import { SEO } from '../../layout'
 
 const AboutUs = ({ className }) => {
-  const [t] = useTranslation();
+  const [t] = useTranslation()
   return (
     <div className={className}>
       <SEO title="Remida | About Us">
@@ -16,7 +16,7 @@ const AboutUs = ({ className }) => {
         </main>
       </SEO>
     </div>
-  );
-};
+  )
+}
 
-export default AboutUs;
+export default AboutUs

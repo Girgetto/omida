@@ -1,9 +1,9 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
-import style from './style.module.scss';
+import React from 'react'
+import { useTranslation } from 'react-i18next'
+import style from './style.module.scss'
 
 const Main = () => {
-  const [t] = useTranslation();
+  const [t] = useTranslation()
   return (
     <section className={style.firstSection}>
       <div className={style.mainTitle}>
@@ -15,7 +15,7 @@ const Main = () => {
         </p>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Main;
+export default Main
