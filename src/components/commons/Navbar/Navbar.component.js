@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom'
 import { ROUTES } from '../../../constants'
 import i18n from 'i18next'
 import cs from 'classnames'
+import MobileNavbar from './components/MobileNavbar'
 
 const Navbar = ({ className, setLanguage }) => {
   const changeLanguage = (lng) => {
-    setLanguage(lng)
+    setLanguage(lng)  
     i18n.changeLanguage(lng)
   }
 
@@ -17,6 +18,7 @@ const Navbar = ({ className, setLanguage }) => {
 
   return (
     <div className={className}>
+      <MobileNavbar />
       <ul className="list">
         <Link
           to={ROUTES.index}
@@ -82,7 +84,7 @@ const Navbar = ({ className, setLanguage }) => {
           role="img"
           aria-label="cn"
         >
-            中文
+          中文
         </span>
       </div>
     </div>

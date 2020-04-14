@@ -71,4 +71,11 @@ export default styled(Navbar).attrs({})`
       opacity: ${({ language }) => language === 'cn' && '1'};
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    .list,
+    .language {
+      display: none;
+    }
+  }
 `
