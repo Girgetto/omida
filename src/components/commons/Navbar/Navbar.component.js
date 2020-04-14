@@ -82,7 +82,7 @@ const Navbar = ({ className, setLanguage }) => {
           role="img"
           aria-label="cn"
         >
-          CN
+            中文
         </span>
       </div>
     </div>
