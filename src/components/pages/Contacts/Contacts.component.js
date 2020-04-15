@@ -9,7 +9,7 @@ const Contacts = ({ className }) => {
       <SEO title="Remida | Contacts">
         <div>
           <p>{t('contact.ContactUs', 'Contacts')}</p>
-          <div>info@remida-realestate.com</div>
+          <a href="mailto:webmaster@example.com">info@remida-realestate.com</a>
         </div>
       </SEO>
     </div>

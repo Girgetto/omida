@@ -8,4 +8,9 @@ export default styled(Contacts).attrs()`
   justify-content: center;
   align-items: center;
   min-height: 80vh;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
 `
