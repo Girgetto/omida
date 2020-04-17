@@ -76,7 +76,7 @@ const Navbar = ({ className, setLanguage }) => {
           role="img"
           aria-label="de"
         >
-          IT
+          DE
         </span>
         <span
           className="language__ru"
