@@ -54,8 +54,8 @@
     "ContactUs":"Unser professionelles Team steht Ihnen in Ihrer Sprache zur Verfügung."
   },
   "navbar": {
-    "aboutUs": "ÜBER UNS",
-    "services": "DIENSTLEISTUNGEN",
-    "contacts" : "KONTAKTE"
+    "aboutUs": "Über Uns",
+    "services": "Dienstleistungen",
+    "contacts" : "Kontakte"
   }
 }

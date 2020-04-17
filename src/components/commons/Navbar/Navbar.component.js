@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { ROUTES } from '../../../constants'
+import { useTranslation } from 'react-i18next'
 import i18n from 'i18next'
 import cs from 'classnames'
 import MobileNavbar from './components/MobileNavbar'
 
 const Navbar = ({ className, setLanguage }) => {
+  const [t] = useTranslation()
   const changeLanguage = (lng) => {
     setLanguage(lng)  
     i18n.changeLanguage(lng)
@@ -26,7 +28,7 @@ const Navbar = ({ className, setLanguage }) => {
             window.location.href === PREFIX + ROUTES.index && 'selected'
           )}
         >
-          Home
+          {t('navbar.home', 'Home')}
         </Link>
         <Link
           to={ROUTES.aboutUs}
@@ -34,7 +36,7 @@ const Navbar = ({ className, setLanguage }) => {
             window.location.href === PREFIX + ROUTES.aboutUs && 'selected'
           )}
         >
-          About Us
+          {t('navbar.aboutUs', 'About Us')}
         </Link>
         <Link
           to={ROUTES.services}
@@ -42,7 +44,7 @@ const Navbar = ({ className, setLanguage }) => {
             window.location.href === PREFIX + ROUTES.services && 'selected'
           )}
         >
-          Services
+          {t('navbar.services', 'Services')}
         </Link>
         <Link
           to={ROUTES.contacts}
@@ -50,7 +52,7 @@ const Navbar = ({ className, setLanguage }) => {
             window.location.href === PREFIX + ROUTES.contacts && 'selected'
           )}
         >
-          Contacts
+          {t('navbar.contacts', 'Contacts')}
         </Link>
       </ul>
       <div className="language">
