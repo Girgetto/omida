@@ -39,6 +39,7 @@ export default styled(Navbar).attrs({})`
     max-width: 20vw;
     &__gb,
     &__it,
+    &__de,
     &__cn,
     &__ru {
       border: 1px solid white;
@@ -57,7 +58,9 @@ export default styled(Navbar).attrs({})`
     &__gb {
       opacity: ${({ language }) => language === 'en' && '1'};
     }
-
+    &__de {
+      opacity: ${({ language }) => language === 'it' && '1'};
+    }
     &__it {
       opacity: ${({ language }) => language === 'it' && '1'};
     }
