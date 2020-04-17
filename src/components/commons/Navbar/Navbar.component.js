@@ -71,6 +71,14 @@ const Navbar = ({ className, setLanguage }) => {
           IT
         </span>
         <span
+          className="language__it"
+          onClick={() => changeLanguage('de')}
+          role="img"
+          aria-label="de"
+        >
+          IT
+        </span>
+        <span
           className="language__ru"
           onClick={() => changeLanguage('ru')}
           role="img"
