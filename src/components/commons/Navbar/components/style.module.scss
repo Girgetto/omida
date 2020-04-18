@@ -1,0 +1,82 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  /* Style the navigation menu */
+  .topnav {
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    z-index: 2;
+  }
+
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    z-index: 1;
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    float: right;
+  }
+
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #000;
+    color: black;
+  }
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #4caf50;
+    color: white;
+  }
+
+  .faIcon {
+    font-size: 48px;
+    margin: 14px;
+  }
+
+  .bars {
+    padding-top: 14px;
+  }
+  
+  .link {
+    text-align: center;
+    font-size: 48px !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 768px) {
+  .mobileNavbar {
+    display: none;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

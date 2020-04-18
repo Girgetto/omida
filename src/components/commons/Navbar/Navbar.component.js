@@ -1,41 +1,58 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { ROUTES } from '../../../constants';
-import i18n from 'i18next';
-import cs from 'classnames';
+import React from 'react'
+import { Link } from 'react-router-dom'
+import { ROUTES } from '../../../constants'
+import { useTranslation } from 'react-i18next'
+import i18n from 'i18next'
+import cs from 'classnames'
+import MobileNavbar from './components/MobileNavbar'
 
 const Navbar = ({ className, setLanguage }) => {
-  const changeLanguage = lng => {
-    setLanguage(lng);
-    i18n.changeLanguage(lng);
-  };
+  const [t] = useTranslation()
+  const changeLanguage = (lng) => {
+    setLanguage(lng)  
+    i18n.changeLanguage(lng)
+  }
+
+  const PREFIX =
+    process.env.REACT_APP_ENV === 'development'
+      ? 'http://localhost:3000/#'
+      : 'https://girgetto.github.io/remida/#'
 
   return (
     <div className={className}>
+      <MobileNavbar />
       <ul className="list">
         <Link
           to={ROUTES.index}
-          className={cs(window.location.href.includes('home') && 'selected')}
+          className={cs(
+            window.location.href === PREFIX + ROUTES.index && 'selected'
+          )}
         >
-          Home
+          {t('navbar.home', 'Home')}
         </Link>
         <Link
           to={ROUTES.aboutUs}
-          className={cs(window.location.href.includes('about') && 'selected')}
+          className={cs(
+            window.location.href === PREFIX + ROUTES.aboutUs && 'selected'
+          )}
         >
-          About Us
+          {t('navbar.aboutUs', 'About Us')}
         </Link>
         <Link
           to={ROUTES.services}
-          className={cs(window.location.href.includes('services') && 'selected')}
+          className={cs(
+            window.location.href === PREFIX + ROUTES.services && 'selected'
+          )}
         >
-          Services
+          {t('navbar.services', 'Services')}
         </Link>
         <Link
           to={ROUTES.contacts}
-          className={cs(window.location.href.includes('contacts') && 'selected')}
+          className={cs(
+            window.location.href === PREFIX + ROUTES.contacts && 'selected'
+          )}
         >
-          Contacts
+          {t('navbar.contacts', 'Contacts')}
         </Link>
         
       </ul>
@@ -57,6 +74,14 @@ const Navbar = ({ className, setLanguage }) => {
           IT
         </span>
         <span
+          className="language__de"
+          onClick={() => changeLanguage('de')}
+          role="img"
+          aria-label="de"
+        >
+          DE
+        </span>
+        <span
           className="language__ru"
           onClick={() => changeLanguage('ru')}
           role="img"
@@ -70,11 +95,11 @@ const Navbar = ({ className, setLanguage }) => {
           role="img"
           aria-label="cn"
         >
-          CN
+          中文
         </span>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

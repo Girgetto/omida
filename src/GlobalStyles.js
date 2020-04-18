@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
   @import url('/assets/Font/Avenir Next West/AvenirNext-UltraLight.ttf');

@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import Navbar from './Navbar.component';
+import styled from 'styled-components'
+import Navbar from './Navbar.component'
 
 export default styled(Navbar).attrs({})`
   height: 40px;
@@ -39,9 +39,9 @@ export default styled(Navbar).attrs({})`
     max-width: 20vw;
     &__gb,
     &__it,
-    &__ru, 
-    &__cn
-    {
+    &__de,
+    &__cn,
+    &__ru {
       border: 1px solid white;
       width: 30px;
       height: 30px;
@@ -58,16 +58,27 @@ export default styled(Navbar).attrs({})`
     &__gb {
       opacity: ${({ language }) => language === 'en' && '1'};
     }
-
+    &__de {
+      opacity: ${({ language }) => language === 'it' && '1'};
+    }
     &__it {
       opacity: ${({ language }) => language === 'it' && '1'};
     }
     &__ru {
       opacity: ${({ language }) => language === 'ru' && '1'};
     }
+    &__cn {
+      writing-mode: tb-rl;
+      line-height: 0.9;
+      text-align: center;
+      opacity: ${({ language }) => language === 'cn' && '1'};
+    }
   }
-  &__ru {
-    opacity: ${({ language }) => language === 'cn' && '1'};
+
+  @media only screen and (max-width: 768px) {
+    .list,
+    .language {
+      display: none;
+    }
   }
-  }
-`;
+`

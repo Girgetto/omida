@@ -1,6 +1,11 @@
+<<<<<<< HEAD
   
 {
     "title": "Omida",
+=======
+{
+    "title": "Remida",
+>>>>>>> 1ccf4247262311b1950b3d4ef3280180c597bd4f
     "home": {
       "RealEstate": "Real Estate and Business Advisory",
       "ConsultancyMediation": "Consultancy mediation and privacy Always a step ahead towards the solution Experience to invest",
@@ -25,7 +30,11 @@
       "WeDevelop":"我们根据环境伦理和创新功能开发项目。我们评估材料的影响，能源优化和设计的附加值，以期获得对未来的竞争力，并注意尊重该地区的趋势。",
       "Advantages": "优点",
       "ContactUs":"保持联系",
+<<<<<<< HEAD
       "ConsciousInvestments": "知识丰富的投资带来真正的好处我们正在为人员和公司寻求真正的利益，避免浪费时间和资源。我们希望让我们的客户有更多的时间做自己关心的事。"
+=======
+      "ConsciousInvestments": "知识丰富的投资带来真正的好处 我们正在为人员和公司寻求真正的利益，避免浪费时间和资源。我们希望让我们的客户有更多的时间做自己关心的事。"
+>>>>>>> 1ccf4247262311b1950b3d4ef3280180c597bd4f
     },
     "about": {
       "EachHuman":"所有人都有三种生活：公共生活，私人生活和秘密生活。最后一个是管理重要业务的。",

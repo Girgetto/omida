@@ -1,8 +1,9 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
+import React from 'react'
+import { useTranslation } from 'react-i18next'
+import { SEO } from '../../layout'
 
 const Contacts = ({ className }) => {
-  const [t] = useTranslation();
+  const [t] = useTranslation()
   return (
     <div className={className}>
       
@@ -14,8 +15,7 @@ const Contacts = ({ className }) => {
           </div>
       </div>
     </div>
-    
-  );
-};
+  )
+}
 
-export default Contacts;
+export default Contacts

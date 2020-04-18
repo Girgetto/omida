@@ -1,9 +1,10 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
-import Link from 'react-router-dom/Link';
+import React from 'react'
+import { useTranslation } from 'react-i18next'
+import Link from 'react-router-dom/Link'
+import { SEO } from '../../layout'
 
 const AboutUs = ({ className }) => {
-  const [t] = useTranslation();
+  const [t] = useTranslation()
   return (
     <div className={className}>
       <h2>{t('about.EachHuman', 'EachHuman')}</h2>
@@ -13,7 +14,7 @@ const AboutUs = ({ className }) => {
         <Link to={'/'}>{t('about.LearnMore', 'LearnMore')}</Link>
       </main>
     </div>
-  );
-};
+  )
+}
 
-export default AboutUs;
+export default AboutUs
