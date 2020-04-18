@@ -9,9 +9,9 @@ const FirstSquares = () => {
   return (
     <div className={styles.squares} data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
       <div className={cs(styles.square, styles.wrapper)}>
-        <h1>
+        <h2>
           {t('home.PrivacyAndDiscretion')}
-        </h1>
+        </h2>
         <p>
           {t('home.OurApproach')}
         </p>
@@ -20,9 +20,9 @@ const FirstSquares = () => {
         <img className={styles.image} src={view3} alt="view3" />
       </div>
       <div className={cs(styles.square, styles.wrapper)}>
-        <h1>
+        <h2>
           {t('home.LuxuryRealEstate')}
-        </h1>
+        </h2>
         <p>
           {t('home.WithAGrowing')}
         </p>

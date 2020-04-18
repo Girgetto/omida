@@ -7,9 +7,9 @@ const LastSection = () => {
   return (
     <div className={styles.lastSection} data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
       <div>
-        <h1>
+        <h2>
           {t('home.ATradition')}
-        </h1>
+        </h2>
       </div>
       <div>
         <p>

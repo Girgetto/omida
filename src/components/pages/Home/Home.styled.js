@@ -11,7 +11,6 @@ export default styled(Home).attrs({})`
     background-color: black;
 
     .mainTitle {
-      font-size: 46px;
       font-weight: 500;
       color: white;
     }

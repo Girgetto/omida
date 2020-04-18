@@ -8,7 +8,10 @@ const Contacts = ({ className }) => {
       
       <div>
         <p>{t('contact.ContactUs', 'Contacts')}</p>
-        <div>info@remida-realestate.com</div>
+        <div>
+          <a href="mailto:info@remida-realestate.com">info@remida-realestate.com</a>
+          
+          </div>
       </div>
     </div>
     

@@ -37,6 +37,7 @@ const Navbar = ({ className, setLanguage }) => {
         >
           Contacts
         </Link>
+        
       </ul>
       <div className="language">
         <span

@@ -13,9 +13,9 @@ const FirstSquares = () => {
         <img className={styles.image} src={view1} alt="view1" />
       </div>
       <div className={cs(styles.square, styles.wrapper)}>
-        <h1>
+        <h2>
           {t('home.ASpecializedGuide')}
-        </h1>
+        </h2>
         <p>
           {t('home.WeAnalyze')}
         </p>
