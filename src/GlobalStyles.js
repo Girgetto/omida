@@ -1,9 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Notable');
   body {
-    font-family: 'Poppins', sans-serif;
     vertical-align: baseline;
     color:#fff;
     background-color: #000;
