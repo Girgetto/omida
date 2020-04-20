@@ -6,7 +6,7 @@ const Services = ({ className }) => {
   const [t] = useTranslation()
   return (
     <div className={className}>
-      <SEO title="Remida | Services"/>
+      <SEO title="Omida | Services"/>
       <h2>{t('services.Intro')}</h2>
       <p>{t('services.IntroText')}</p>
       <div className="titles">

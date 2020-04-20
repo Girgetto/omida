@@ -16,7 +16,7 @@ const Navbar = ({ className, setLanguage }) => {
   const PREFIX =
     process.env.REACT_APP_ENV === 'development'
       ? 'http://localhost:3000/#'
-      : 'https://girgetto.github.io/remida/#'
+      : 'https://girgetto.github.io/omida/#'
 
   return (
     <div className={className}>
