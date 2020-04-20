@@ -6,7 +6,7 @@ const n = d.getFullYear()
 const Footer = ({ className }) => {
   return (
     <div className={className}>
-      <p>© {n} Remida</p>
+      <p>© {n} Omida</p>
     </div>
   )
 }

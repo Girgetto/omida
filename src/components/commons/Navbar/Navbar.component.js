@@ -54,6 +54,7 @@ const Navbar = ({ className, setLanguage }) => {
         >
           {t('navbar.contacts', 'Contacts')}
         </Link>
+        
       </ul>
       <div className="language">
         <span

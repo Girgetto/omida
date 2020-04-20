@@ -11,7 +11,9 @@ const LastSection = () => {
       data-aos-anchor-placement="bottom-bottom"
     >
       <div>
-        <h1>{t('home.ATradition')}</h1>
+        <h2>
+          {t('home.ATradition')}
+        </h2>
       </div>
       <div>
         <p>{t('home.WeDevelop')}</p>

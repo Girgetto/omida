@@ -1,6 +1,6 @@
   
 {
-  "title": "Remida",
+  "title": "Omida",
   "home": {
     "RealEstate": "Real Estate and Business Advisory",
     "ConsultancyMediation": "Consulenza, mediazione e riservatezza. Sempre un passo avanti verso la soluzione. Conoscere per investire",
@@ -53,5 +53,10 @@
   },
   "contact": {
     "ContactUs":"Contattaci saremo lieti di fornirti le informazioni di cui necessiti per accompagnarti sempre un passo avanti. Il nostro team di professionisti è a disposizione per assisterti nella tua lingua."
+  },
+  "navbar": {
+    "aboutUs": "Chi Siamo",
+    "services": "Servizi",
+    "contacts" : "Contatti"
   }
 }

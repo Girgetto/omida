@@ -20,7 +20,7 @@ const OurMission = () => {
       </div>
       <div className={styled.column_2}>
         <div>
-          <h1>{t('home.OurMission')}</h1>
+          <h2>{t('home.OurMission')}</h2>
         </div>
         <div>
           <p>{t('home.WeOffer')}</p>
