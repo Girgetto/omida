@@ -9,8 +9,8 @@ export default createGlobalStyle`
     vertical-align: baseline;
     color:#fff;
     background-color: #000;
-    font-size:21px;
-    line-height: 2rem;
+    font-size:20px;
+    line-height: 26px;
   }
 
   h1 {
@@ -24,12 +24,12 @@ export default createGlobalStyle`
     font-family: AvenirNext-Regular
     font-size: 24px;
     font-weight: 100;
-    line-height: 40px;
+    line-height: 25px;
     letter-spacing: 3px;
   }
   h3 {
     font-family: AvenirNext-Regular
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 100;
     line-height: 40px;
   }
