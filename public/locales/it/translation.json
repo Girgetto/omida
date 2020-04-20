@@ -53,5 +53,10 @@
   },
   "contact": {
     "ContactUs":"Contattaci saremo lieti di fornirti le informazioni di cui necessiti per accompagnarti sempre un passo avanti. Il nostro team di professionisti è a disposizione per assisterti nella tua lingua."
+  },
+  "navbar": {
+    "aboutUs": "Chi Siamo",
+    "services": "Servizi",
+    "contacts" : "Contatti"
   }
 }
