@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/remida/static/css/main.511c9d51.chunk.css",
-    "main.js": "/remida/static/js/main.1d937422.chunk.js",
-    "main.js.map": "/remida/static/js/main.1d937422.chunk.js.map",
+    "main.css": "/remida/static/css/main.28d1e81c.chunk.css",
+    "main.js": "/remida/static/js/main.2cc3c25e.chunk.js",
+    "main.js.map": "/remida/static/js/main.2cc3c25e.chunk.js.map",
     "runtime-main.js": "/remida/static/js/runtime-main.562a2011.js",
     "runtime-main.js.map": "/remida/static/js/runtime-main.562a2011.js.map",
     "static/css/2.4707e12a.chunk.css": "/remida/static/css/2.4707e12a.chunk.css",
-    "static/js/2.8f96fab1.chunk.js": "/remida/static/js/2.8f96fab1.chunk.js",
-    "static/js/2.8f96fab1.chunk.js.map": "/remida/static/js/2.8f96fab1.chunk.js.map",
+    "static/js/2.dd876308.chunk.js": "/remida/static/js/2.dd876308.chunk.js",
+    "static/js/2.dd876308.chunk.js.map": "/remida/static/js/2.dd876308.chunk.js.map",
     "index.html": "/remida/index.html",
-    "precache-manifest.a6336b839ebe2d623adf940f7bd51467.js": "/remida/precache-manifest.a6336b839ebe2d623adf940f7bd51467.js",
+    "precache-manifest.8b1ef6cf71bce4aaa0ca5d61b17dd661.js": "/remida/precache-manifest.8b1ef6cf71bce4aaa0ca5d61b17dd661.js",
     "service-worker.js": "/remida/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/remida/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.511c9d51.chunk.css.map": "/remida/static/css/main.511c9d51.chunk.css.map",
-    "static/media/castle.jpg": "/remida/static/media/castle.8af3760b.jpg",
-    "static/media/style.module.scss": "/remida/static/media/franco.3892f8ae.jpg",
-    "static/media/view1.jpg": "/remida/static/media/view1.f619d647.jpg",
-    "static/media/view2.jpg": "/remida/static/media/view2.14208f82.jpg",
-    "static/media/view3.jpg": "/remida/static/media/view3.664694d0.jpg",
-    "static/media/view4.jpg": "/remida/static/media/view4.5d707e72.jpg"
+    "static/css/main.28d1e81c.chunk.css.map": "/remida/static/css/main.28d1e81c.chunk.css.map",
+    "static/media/castle.jpg": "/remida/static/media/castle.6e221f8a.jpg",
+    "static/media/contact.jpg": "/remida/static/media/contact.30e17133.jpg",
+    "static/media/view1.jpg": "/remida/static/media/view1.305f70b2.jpg",
+    "static/media/view2.jpg": "/remida/static/media/view2.ef4b5e11.jpg",
+    "static/media/view3.jpg": "/remida/static/media/view3.a6656231.jpg",
+    "static/media/view4.jpg": "/remida/static/media/view4.ea9bc3ed.jpg"
   }
 }
