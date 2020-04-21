@@ -41,7 +41,8 @@ export default styled(Navbar).attrs({})`
     &__it,
     &__de,
     &__cn,
-    &__ru {
+    &__ru,
+    &__fr {
       border: 1px solid white;
       width: 30px;
       height: 30px;
@@ -59,10 +60,13 @@ export default styled(Navbar).attrs({})`
       opacity: ${({ language }) => language === 'en' && '1'};
     }
     &__de {
-      opacity: ${({ language }) => language === 'it' && '1'};
+      opacity: ${({ language }) => language === 'de' && '1'};
     }
     &__it {
       opacity: ${({ language }) => language === 'it' && '1'};
+    }
+    &__fr {
+      opacity: ${({ language }) => language === 'fr' && '1'};
     }
     &__ru {
       opacity: ${({ language }) => language === 'ru' && '1'};
