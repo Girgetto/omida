@@ -21,14 +21,14 @@ export default createGlobalStyle`
     letter-spacing: 25px;
   }
   h2 {
-    font-family: AvenirNext-Regular
+    font-family: AvenirNext-Regular;
     font-size: 24px;
     font-weight: 100;
     line-height: 25px;
     letter-spacing: 3px;
   }
   h3 {
-    font-family: AvenirNext-Regular
+    font-family: AvenirNext-Regular;
     font-size: 20px;
     font-weight: 100;
     line-height: 40px;
@@ -39,19 +39,19 @@ export default createGlobalStyle`
     color: rgba(255,255,255,0.6);
   }
   span {
-    font-family: AvenirNext-Regular
+    font-family: AvenirNext-Regular;
     font-size: 14px;
     font-weight: 100;
     line-height: 2,5rem;
   }
   ul {
-    font-family: AvenirNext-Bold
+    font-family: AvenirNext-Bold;
     font-size: 40px;
     font-weight: 100;
     line-height: 2,5rem;
   }
   a {
-    font-family: AvenirNext-Regular
+    font-family: AvenirNext-Regular;
     font-size: 20px;
     font-weight: 100;
     line-height: 40px;

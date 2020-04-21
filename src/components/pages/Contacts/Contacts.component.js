@@ -8,7 +8,7 @@ const Contacts = ({ className }) => {
   const [t] = useTranslation()
   return (
     <div className={className}>
-      
+      <SEO title="Omida | Contacts"/>
       <div>
         <p>{t('contact.ContactUs', 'Contacts')}</p>
         <div>

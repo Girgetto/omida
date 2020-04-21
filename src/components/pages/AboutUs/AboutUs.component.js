@@ -7,10 +7,11 @@ const AboutUs = ({ className }) => {
   const [t] = useTranslation()
   return (
     <div className={className}>
+    <SEO title="Omida | About Us"/>
       <h2>{t('about.EachHuman', 'EachHuman')}</h2>
       <main>
         <h2>{t('about.35Years', '35Years')}</h2>
-        <p>{t('about.Remida', 'Remida')}</p>
+        <p>{t('about.Remida', 'Omida')}</p>
         <Link to={'/'}>{t('about.LearnMore', 'LearnMore')}</Link>
       </main>
     </div>
