@@ -2,7 +2,7 @@
   "name": "omida",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://omida-realestate.com",
+  "homepage": "https://girgetto.github.io/omida/",
   "dependencies": {
     "aos": "^2.3.4",
     "axios": "^0.19.0",
@@ -44,13 +44,13 @@
   },
   "scripts": {
     "start": "dotenv -e .env.development react-scripts start",
-    "build": "dotenv -e .env.development react-scripts build",
+    "build": "dotenv -e .env.production react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "node_modules/.bin/eslint .",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "serve": "serve ./builds"
+    "serve": "serve -s build"
   },
   "eslintConfig": {
     "extends": "react-app"
