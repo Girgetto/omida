@@ -2,7 +2,7 @@
   "name": "omida",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://girgetto.github.io/omida/",
+  "homepage": "./",
   "dependencies": {
     "aos": "^2.3.4",
     "axios": "^0.19.0",
