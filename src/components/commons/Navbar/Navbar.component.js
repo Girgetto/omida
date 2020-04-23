@@ -6,6 +6,8 @@ import i18n from 'i18next'
 import cs from 'classnames'
 import MobileNavbar from './components/MobileNavbar'
 
+import { homepage } from '../../../../package.json';
+
 const Navbar = ({ className, setLanguage }) => {
   const [t] = useTranslation()
   const changeLanguage = (lng) => {
@@ -16,7 +18,7 @@ const Navbar = ({ className, setLanguage }) => {
   const PREFIX =
     process.env.REACT_APP_ENV === 'development'
       ? 'http://localhost:3000/#'
-      : 'https://girgetto.github.io/omida/#'
+      : `${homepage}/#`
 
   return (
     <div className={className}>
