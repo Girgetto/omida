@@ -1,17 +1,18 @@
 import React, { Suspense } from 'react'
-import { PersistGate } from 'redux-persist/integration/react'
+import AOS from 'aos'
 import ReactDOM from 'react-dom'
+import { PersistGate } from 'redux-persist/integration/react'
 import { Provider } from 'react-redux'
 import { HashRouter } from 'react-router-dom'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-import { store, persistor } from './state'
+import { ParallaxProvider } from 'react-scroll-parallax'
+
 import Routes from './routes'
+import * as serviceWorker from './serviceWorker'
+import { store, persistor } from './state'
+import GlobalStyles from './GlobalStyles'
+import 'aos/dist/aos.css'
 import './style.scss'
 import './i18n'
-import * as serviceWorker from './serviceWorker'
-import GlobalStyles from './GlobalStyles'
-import { ParallaxProvider } from 'react-scroll-parallax'
 
 AOS.init()
 

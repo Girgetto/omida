@@ -1,9 +1,9 @@
 import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
-  @import url('/assets/font/Avenir-Next-West/AvenirNext-UltraLight.ttf');
-  @import url('/assets/font/Avenir-Next-West/AvenirNext-Bold.ttf');
-  @import url('/assets/font/Avenir-Next-West/AvenirNext-Regular.ttf');
+  @import url('./font/Avenir-Next-West/AvenirNext-UltraLight.ttf');
+  @import url('./font/Avenir-Next-West/AvenirNext-Bold.ttf');
+  @import url('./font/Avenir-Next-West/AvenirNext-Regular.ttf');
 
   body {
     font-family: 'AvenirNext-UltraLight';

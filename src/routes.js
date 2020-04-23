@@ -51,7 +51,7 @@ const Routes = (
         </MainLayout>
       )}
     />
-    <Redirect to="/" />
+    <Redirect to={ROUTES.index} />
   </Switch>
 )
 
