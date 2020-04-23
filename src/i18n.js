@@ -10,10 +10,7 @@ i18n
   .use(initReactI18next)
   .init({
     backend: {
-      loadPath:
-        process.env.REACT_APP_ENV === 'development'
-          ? '/locales/{{lng}}/{{ns}}.json'
-          : '/omida/locales/{{lng}}/{{ns}}.json',
+      loadPath: './locales/{{lng}}/{{ns}}.json'
     },
     fallbackLng: 'en',
     debug: false,
