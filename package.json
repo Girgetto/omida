@@ -68,7 +68,6 @@
     ]
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.2",
     "node-sass": "^4.12.0"
   }
 }

@@ -1,12 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { ROUTES } from '../../../constants'
+import { ROUTES, CLASS_NAME } from '../../../constants'
 import { useTranslation } from 'react-i18next'
 import i18n from 'i18next'
 import cs from 'classnames'
 import MobileNavbar from './components/MobileNavbar'
-
-import { homepage } from '../../../../package.json';
 
 const Navbar = ({ className, setLanguage }) => {
   const [t] = useTranslation()
@@ -15,11 +13,6 @@ const Navbar = ({ className, setLanguage }) => {
     i18n.changeLanguage(lng)
   }
 
-  const PREFIX =
-    process.env.REACT_APP_ENV === 'development'
-      ? 'http://localhost:3000/#'
-      : `${homepage}/#`
-
   return (
     <div className={className}>
       <MobileNavbar />
@@ -27,7 +20,7 @@ const Navbar = ({ className, setLanguage }) => {
         <Link
           to={ROUTES.index}
           className={cs(
-            window.location.href === PREFIX + ROUTES.index && 'selected'
+            window.location.href.split('#')[1] === ROUTES.index && CLASS_NAME.SELECTED
           )}
         >
           {t('navbar.home', 'Home')}
@@ -35,7 +28,7 @@ const Navbar = ({ className, setLanguage }) => {
         <Link
           to={ROUTES.aboutUs}
           className={cs(
-            window.location.href === PREFIX + ROUTES.aboutUs && 'selected'
+            window.location.href.includes(ROUTES.aboutUs) && CLASS_NAME.SELECTED
           )}
         >
           {t('navbar.aboutUs', 'About Us')}
@@ -43,7 +36,7 @@ const Navbar = ({ className, setLanguage }) => {
         <Link
           to={ROUTES.services}
           className={cs(
-            window.location.href === PREFIX + ROUTES.services && 'selected'
+            window.location.href.includes(ROUTES.services) && CLASS_NAME.SELECTED
           )}
         >
           {t('navbar.services', 'Services')}
@@ -51,7 +44,7 @@ const Navbar = ({ className, setLanguage }) => {
         <Link
           to={ROUTES.contacts}
           className={cs(
-            window.location.href === PREFIX + ROUTES.contacts && 'selected'
+            window.location.href.includes(ROUTES.contacts) && CLASS_NAME.SELECTED
           )}
         >
           {t('navbar.contacts', 'Contacts')}

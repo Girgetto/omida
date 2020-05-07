@@ -4,3 +4,7 @@ export const ROUTES = {
   services: '/services',
   contacts: '/contacts',
 }
+
+export const CLASS_NAME = {
+  SELECTED: 'selected'
+}
