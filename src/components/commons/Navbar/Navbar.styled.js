@@ -41,6 +41,7 @@ export default styled(Navbar).attrs({})`
     &__it,
     &__de,
     &__cn,
+    &__es,
     &__ru,
     &__fr {
       border: 1px solid white;
@@ -69,6 +70,9 @@ export default styled(Navbar).attrs({})`
       opacity: ${({ language }) => language === 'fr' && '1'};
     }
     &__ru {
+      opacity: ${({ language }) => language === 'ru' && '1'};
+    }
+    &__wa {
       opacity: ${({ language }) => language === 'ru' && '1'};
     }
     &__cn {

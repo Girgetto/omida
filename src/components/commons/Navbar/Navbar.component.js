@@ -9,7 +9,7 @@ import MobileNavbar from './components/MobileNavbar'
 const Navbar = ({ className, setLanguage }) => {
   const [t] = useTranslation()
   const changeLanguage = (lng) => {
-    setLanguage(lng)  
+    setLanguage(lng)
     i18n.changeLanguage(lng)
   }
 
@@ -20,7 +20,8 @@ const Navbar = ({ className, setLanguage }) => {
         <Link
           to={ROUTES.index}
           className={cs(
-            window.location.href.split('#')[1] === ROUTES.index && CLASS_NAME.SELECTED
+            window.location.href.split('#')[1] === ROUTES.index &&
+              CLASS_NAME.SELECTED
           )}
         >
           {t('navbar.home', 'Home')}
@@ -36,7 +37,8 @@ const Navbar = ({ className, setLanguage }) => {
         <Link
           to={ROUTES.services}
           className={cs(
-            window.location.href.includes(ROUTES.services) && CLASS_NAME.SELECTED
+            window.location.href.includes(ROUTES.services) &&
+              CLASS_NAME.SELECTED
           )}
         >
           {t('navbar.services', 'Services')}
@@ -44,12 +46,12 @@ const Navbar = ({ className, setLanguage }) => {
         <Link
           to={ROUTES.contacts}
           className={cs(
-            window.location.href.includes(ROUTES.contacts) && CLASS_NAME.SELECTED
+            window.location.href.includes(ROUTES.contacts) &&
+              CLASS_NAME.SELECTED
           )}
         >
           {t('navbar.contacts', 'Contacts')}
         </Link>
-        
       </ul>
       <div className="language">
         <span
@@ -67,6 +69,14 @@ const Navbar = ({ className, setLanguage }) => {
           aria-label="it"
         >
           IT
+        </span>
+        <span
+          className="language__es"
+          onClick={() => changeLanguage('es')}
+          role="img"
+          aria-label="es"
+        >
+          ES
         </span>
         <span
           className="language__de"
