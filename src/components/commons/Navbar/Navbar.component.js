@@ -15,7 +15,7 @@ const Navbar = ({ className, setLanguage }) => {
 
   return (
     <div className={className}>
-      <MobileNavbar />
+      <MobileNavbar setLanguage={setLanguage}/>
       <ul className="list">
         <Link
           to={ROUTES.index}

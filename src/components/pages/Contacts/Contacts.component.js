@@ -12,7 +12,7 @@ const Contacts = ({ className }) => {
       <div>
         <p>{t('contact.ContactUs', 'Contacts')}</p>
         <div>
-          <a href="mailto:info@remida-realestate.com">info@remida-realestate.com</a>
+          <a href="mailto:omida@omida-realestate.com">omida@omida-realestate.com</a>
           <div className={styles.square}>
         <img className={styles.image} src={contact} alt="contact" />
       </div>

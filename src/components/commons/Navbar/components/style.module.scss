@@ -7,6 +7,16 @@
     position: relative;
   }
 
+  .language {
+    float: right;
+    margin-right: 10%;
+    & > span {
+      font-size: 28px;
+      padding: 20px;
+      margin: 10px;
+    }
+  }
+
   /* Hide the links inside the navigation menu (except for logo/home) */
   .topnav #myLinks {
     display: none;
@@ -59,7 +69,7 @@
   .bars {
     padding-top: 14px;
   }
-  
+
   .link {
     text-align: center;
     font-size: 48px !important;
