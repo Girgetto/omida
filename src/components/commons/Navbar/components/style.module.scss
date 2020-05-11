@@ -10,6 +10,10 @@
   .language {
     float: right;
     margin-right: 10%;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
     & > span {
       font-size: 28px;
       padding: 20px;

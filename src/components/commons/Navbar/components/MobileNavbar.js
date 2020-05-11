@@ -40,7 +40,7 @@ const MobileNavbar = ({ setLanguage }) => {
           <Link className={style.link} to={ROUTES.contacts}>
             {t('navbar.contacts', 'Contacts')}
           </Link>
-          <div className={style.language} style={{ display: 'block' }}>
+          <div className={style.language}>
             <span
               className="language__gb"
               onClick={() => changeLanguage('en')}

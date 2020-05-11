@@ -14,7 +14,7 @@ import 'aos/dist/aos.css'
 import './style.scss'
 import './i18n'
 
-AOS.init()
+AOS.init({})
 
 ReactDOM.render(
   <Provider store={store}>
