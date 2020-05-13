@@ -1,6 +1,8 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+
 import { SEO } from '../../layout'
+import service4 from '../../../assets/img/services4.jpg'
 
 const Services = ({ className }) => {
   const [t] = useTranslation()
@@ -22,6 +24,7 @@ const Services = ({ className }) => {
       <p>{t('services.ADeep')}</p>
       <p>{t('services.WeWill')}</p>
       <p>{t('services.WeCoordinate')}</p>
+      <img src={service4} alt="door"/>
     </div>
   )
 }

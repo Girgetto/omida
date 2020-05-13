@@ -8,15 +8,17 @@ const Contacts = ({ className }) => {
   const [t] = useTranslation()
   return (
     <div className={className}>
-      <SEO title="Omida | Contacts"/>
+      <SEO title="Omida | Contacts" />
       <div>
         <p>{t('contact.ContactUs', 'Contacts')}</p>
         <div>
-          <a href="mailto:omida@omida-realestate.com">omida@omida-realestate.com</a>
-          <div className={styles.square}>
-        <img className={styles.image} src={contact} alt="contact" />
-      </div>
+          <a href="mailto:omida@omida-realestate.com">
+            <b>Email:</b> omida@omida-realestate.com
+          </a>
+          <div className={styles.dog}>
+            <img className={styles.image} src={contact} alt="contact" />
           </div>
+        </div>
       </div>
     </div>
   )

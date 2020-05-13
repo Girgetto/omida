@@ -69,6 +69,11 @@
   width: 100%;
 }
 
+.dog {
+  width: 40%;
+  float: right;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 }
@@ -101,6 +106,12 @@
 
   .lastSection {
     padding: 4%;
+  }
+
+  .dog {
+    width: 100%;
+    float: right;
+    margin-top: 40px;
   }
 }
 

@@ -88,5 +88,9 @@ export default styled(Navbar).attrs({})`
     .language {
       display: none;
     }
+
+    a, a:hover {
+      color: #fff;
+    }
   }
 `
