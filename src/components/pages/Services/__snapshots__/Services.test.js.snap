@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Services /> match snapshot 1`] = `
+<div>
+  <div
+    class="className"
+  >
+    <h2>
+      services.Intro
+    </h2>
+    <p>
+      services.IntroText
+    </p>
+    <div
+      class="titles"
+    >
+      <h3>
+        services.LuxuryRealEstate
+         | 
+        services.BusinessAdvisory
+         | 
+        services.TechnicalAdvice
+         | 
+        services.Refurbishment
+         | 
+        services.BusinessMaximization
+         | 
+        services.Management
+         | 
+        services.Coordination
+         | 
+        services.AfterSales
+         |
+        services.Planning
+      </h3>
+    </div>
+    <p>
+      services.TheTarget
+    </p>
+    <p>
+      services.ADeep
+    </p>
+    <p>
+      services.WeWill
+    </p>
+    <p>
+      services.WeCoordinate
+    </p>
+    <img
+      alt="door"
+      src="services4.jpg"
+    />
+  </div>
+  ,
+</div>
+`;
