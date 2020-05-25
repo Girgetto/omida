@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Contacts /> match snapshot 1`] = `
+<div>
+  <div
+    class="className"
+  >
+    <div>
+      <p>
+        contact.ContactUs
+      </p>
+      <div>
+        <a
+          href="mailto:omida@omida-realestate.com"
+        >
+          <b>
+            Email:
+          </b>
+           omida@omida-realestate.com
+        </a>
+        <div
+          class="dog"
+        >
+          <img
+            alt="contact"
+            class="image"
+            src="contact.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  ,
+</div>
+`;
