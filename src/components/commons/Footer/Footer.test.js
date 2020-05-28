@@ -8,7 +8,7 @@ const props = {
   className: 'className',
 };
 
-describe('<AboutUs />', () => {
+describe('<Footer />', () => {
   const { container } = render(
     <ParallaxProvider>
       <Footer {...props} />,
