@@ -1,5 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+
 import { SEO } from '../../layout'
 import contact from '../../../assets/img/contact.jpg'
 import styles from '../Home/components/style.module.scss'

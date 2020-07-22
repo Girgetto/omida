@@ -2,23 +2,26 @@ import styled from 'styled-components'
 import Navbar from './Navbar.component'
 
 export default styled(Navbar).attrs({})`
+  z-index: 9999;
   height: 40px;
-  width: 95vw;
+  width: 100vw;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   right: 0;
   left: 0;
-  padding: 1% 0%;
+  padding: 2% 0%;
+  padding-right: 6%;
   position: fixed;
   z-index: 1;
+  background-color: #131313;
 
   .selected {
     border-bottom: 1px solid;
   }
 
   .list {
-    width: 80vw;
+    width: 60vw;
     max-width: 80vw;
     height: 100%;
     display: flex;
@@ -90,7 +93,8 @@ export default styled(Navbar).attrs({})`
       display: none;
     }
 
-    a, a:hover {
+    a,
+    a:hover {
       color: #fff;
     }
   }
