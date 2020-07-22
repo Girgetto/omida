@@ -8,5 +8,6 @@ export default styled(MainLayout).attrs({})`
 
   .content {
     min-height: 100%;
+    padding-top: 120px;
   }
 `

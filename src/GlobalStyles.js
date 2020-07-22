@@ -9,7 +9,7 @@ export default createGlobalStyle`
     font-family: 'AvenirNext-UltraLight';
     vertical-align: baseline;
     color:#fff;
-    background-color: #000;
+    background-color: #121212;
     font-size:20px;
     line-height: 26px;
   }

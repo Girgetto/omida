@@ -10,13 +10,11 @@ const FirstSquares = () => {
   return (
     <div
       className={styles.squares}
-      data-aos="fade-up"
-      data-aos-anchor-placement="top-center"
     >
       <div className={styles.square}>
         <img className={styles.image} src={view1} alt="view1" />
       </div>
-      <div className={cs(styles.square, styles.wrapper)}>
+      <div className={cs(styles.square, styles.wrapper, styles.text)}>
         <h2>
           {t('home.ASpecializedGuide')}
         </h2>

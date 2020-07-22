@@ -7,7 +7,7 @@ const AboutUs = ({ className }) => {
   const [t] = useTranslation()
   return (
     <div className={className}>
-    <SEO title="Omida | About Us"/>
+    <SEO title="Omida - Real Estate Consulting - Italy | About Us"/>
       <h2>{t('about.EachHuman', 'EachHuman')}</h2>
       <main>
         <h2>{t('about.35Years', '35Years')}</h2>

@@ -1,18 +1,15 @@
 import React from 'react'
-import { useTranslation } from 'react-i18next'
+
 import style from './style.module.scss'
+import omidaLogo from '../../../../assets/img/omida-logo.png'
+import omidaReal from '../../../../assets/img/omida-real-estate-consulting.png'
 
 const Main = () => {
-  const [t] = useTranslation()
   return (
     <section className={style.firstSection}>
-      <div className={style.mainTitle}>
-        <h1 data-aos="fade-right" data-aos-duration="1000">
-          {t('title')}
-        </h1>
-        <p data-aos="fade-left" data-aos-duration="1000">
-          {t('home.RealEstate')}
-        </p>
+      <div className={style.home}>
+        <img src={omidaLogo} alt="logo" />
+        <img src={omidaReal} alt="omida" />
       </div>
     </section>
   )

@@ -3,14 +3,15 @@ import Navbar from './Navbar.component'
 
 export default styled(Navbar).attrs({})`
   height: 40px;
-  width: 100vw;
-  width: 100vw;
+  width: 95vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
   right: 0;
   left: 0;
   padding: 1% 0%;
+  position: fixed;
+  z-index: 1;
 
   .selected {
     border-bottom: 1px solid;

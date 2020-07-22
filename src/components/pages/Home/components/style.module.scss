@@ -23,6 +23,18 @@
   position: relative;
   width: 50%;
   padding: 20px;
+  .ourMissionText {
+    padding: 24px 0;
+  }
+  .ourMissionText::after {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 1px;
+    background: #fff;
+    bottom: 0;
+    left: 0;
+  }
 }
 
 .secondSection {
@@ -34,6 +46,7 @@
     @extend %d-flex;
     .paraph {
       font-weight: 100;
+      letter-spacing: 4px;
     }
   }
 
@@ -44,19 +57,18 @@
 
 .squares {
   display: flex;
-  padding: 150px 0;
+  background-color: #191919;
 
-  .wrapper {
-    padding: 4%;
+  .text {
+    padding: 18px;
   }
 
   .square {
     width: 33%;
     .image {
-      position: relative;
-      width: 100%;
-      object-fit: cover;
-      height: 100%;
+      max-width: 100%;
+      max-height: 480px;
+      display: block;
     }
   }
 }
@@ -67,11 +79,59 @@
 
 .image {
   width: 100%;
+  max-width: 400px;
 }
 
 .dog {
   width: 40%;
   float: right;
+}
+
+.home {
+  background-image: url('../../../../assets/img/home.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 757px;
+  display: flex;
+  justify-content: inherit;
+  align-items: center;
+  flex-direction: column;
+  & > img {
+    width: 200px;
+  }
+}
+
+.button {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 16px 20px;
+  position: relative;
+  overflow: hidden;
+  .overLayer {
+    transition: 0.5s;
+    transform: translateX(-100%);
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &:hover {
+    transition: 0.5s;
+    color: #131313;
+    .overLayer {
+      transform: translateX(0px);
+      color: black;
+    }
+  }
 }
 
 /* Extra small devices (phones, 600px and down) */

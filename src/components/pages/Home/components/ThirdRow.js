@@ -12,24 +12,16 @@ const FirstSquares = () => {
       data-aos="fade-up"
       data-aos-anchor-placement="top-center"
     >
-      <div className={cs(styles.square, styles.wrapper)}>
-        <h2>
-          {t('home.PrivacyAndDiscretion')}
-        </h2>
-        <p>
-          {t('home.OurApproach')}
-        </p>
+      <div className={cs(styles.square, styles.wrapper, styles.text)}>
+        <h2>{t('home.PrivacyAndDiscretion')}</h2>
+        <p>{t('home.OurApproach')}</p>
       </div>
       <div className={styles.square}>
         <img className={styles.image} src={view3} alt="view3" />
       </div>
-      <div className={cs(styles.square, styles.wrapper)}>
-        <h2>
-          {t('home.LuxuryRealEstate')}
-        </h2>
-        <p>
-          {t('home.WithAGrowing')}
-        </p>
+      <div className={cs(styles.square, styles.wrapper, styles.text)}>
+        <h2>{t('home.LuxuryRealEstate')}</h2>
+        <p>{t('home.WithAGrowing')}</p>
       </div>
     </div>
   )
