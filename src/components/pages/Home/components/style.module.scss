@@ -98,8 +98,12 @@
   justify-content: inherit;
   align-items: center;
   flex-direction: column;
-  & > img {
-    width: 200px;
+  #logo {
+    width: 140px;
+  }
+
+  #omida {
+    width: 260px;
   }
 }
 

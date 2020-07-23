@@ -25,7 +25,7 @@ const OurMission = () => {
         <div>
           <p>{t('home.WeOffer')}</p>
           <button className={styled.button}>
-            <div className={styled.overLayer}>Go</div>
+            <div className={styled.overLayer}>GO</div>
             LEARN MORE ABOUT US
           </button>
         </div>

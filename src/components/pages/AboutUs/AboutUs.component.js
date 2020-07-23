@@ -25,7 +25,7 @@ const AboutUs = ({ className }) => {
             <h2>{t('about.35Years', '35Years')}</h2>
             <p>{t('about.Remida', 'Omida')}</p>
             <div className="button">
-              <div className="overLayer">Go</div>
+              <div className="overLayer">GO</div>
               <Link to={'/'}>{t('about.LearnMore', 'LearnMore')}</Link>
             </div>
           </main>

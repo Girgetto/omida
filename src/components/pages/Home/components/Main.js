@@ -8,8 +8,8 @@ const Main = () => {
   return (
     <section className={style.firstSection}>
       <div className={style.home}>
-        <img src={omidaLogo} alt="logo" />
-        <img src={omidaReal} alt="omida" />
+        <img src={omidaLogo} alt="logo" id={style.logo}/>
+        <img src={omidaReal} alt="omida" id={style.omida}/>
       </div>
     </section>
   )
