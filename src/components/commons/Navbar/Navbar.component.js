@@ -43,15 +43,6 @@ const Navbar = ({ className, setLanguage }) => {
         >
           {t('navbar.services', 'Services')}
         </Link>
-        <Link
-          to={ROUTES.contacts}
-          className={cs(
-            window.location.href.includes(ROUTES.contacts) &&
-              CLASS_NAME.SELECTED
-          )}
-        >
-          {t('navbar.contacts', 'Contacts')}
-        </Link>
       </ul>
       <div className="language">
         <span

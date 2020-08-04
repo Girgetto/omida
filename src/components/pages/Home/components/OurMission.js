@@ -1,9 +1,12 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
+
 import styled from './style.module.scss'
 import lionImage from '../../../../assets/img/omida-real-estate-consulting-italy.png'
 import styles from './style.module.scss'
 import { Parallax } from 'react-scroll-parallax'
+import { ROUTES } from '../../../../constants'
 
 const OurMission = () => {
   const [t] = useTranslation()
@@ -24,10 +27,12 @@ const OurMission = () => {
         </div>
         <div>
           <p>{t('home.WeOffer')}</p>
-          <button className={styled.button}>
-            <div className={styled.overLayer}>GO</div>
-            LEARN MORE ABOUT US
-          </button>
+          <Link to={ROUTES.services}>
+            <button className={styled.button}>
+              <div className={styled.overLayer}>GO</div>
+              {t('LEARN MORE ABOUT US')}
+            </button>
+          </Link>
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React, { Suspense } from 'react'
+
 import * as Comp from './components'
 import { SEO } from '../../layout'
 
